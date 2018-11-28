@@ -1,0 +1,169 @@
+/* 初始化代码 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #3a474f;
+    text-decoration: none;
+    font-size:14px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+
+
+table {
+    border-collapse: collapse;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+body,
+html {
+    height: 100%;
+    position: relative;
+        background-color: #F3F5F8;
+        font-family: Helvetica, Verdana, "微软雅黑", "Source Sans Pro", sans-serif;
+        font-size: 14px;
+        color: #676a6d;
+}
+
+/* head */
+.container .head {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  background-color: skyblue;
+  opacity: 0.6;
+  top: 2%;
+  left: 0;
+}
+
+.container .icon {
+   /* padding-top: 45px; */
+   /* line-height: 10%; */
+   margin-left: 45px;
+}
+.container .nav-pills li {
+    color: #f1f1f1f1;
+    display: block;
+     float: right;
+    margin-left: 20px;
+    padding-left: 20px;
+   line-height: 10%;
+   
+   
+}
+.head .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #e73562;
+}
+
+/* nain .swiper */
+.container .swiper-container {
+    position: absolute;
+
+}
+
+/* footer */
+.container .footer {
+    width: 100%;
+    height: 36px;
+    background-color: #1b1b1b;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.container .footer .title {
+    color: #f1f1f1f1;
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    line-height: 36px;
+    left: 25px;
+}
+.container .footer .wechsina {
+    position: relative;
+    float: right;
+    /* margin-left: 10px; */
+    right: 45px;
+    line-height: 36px;
+}
+.container .footer span {
+    padding-left: 30px;
+}
