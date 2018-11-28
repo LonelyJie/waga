@@ -93,6 +93,11 @@ table {
     *zoom: 1;
 }
 
+img { 
+    max-width: 100%;
+    /* margin: 0; */
+	height: auto;
+}
 body,
 html {
     height: 100%;
@@ -103,15 +108,26 @@ html {
         color: #676a6d;
 }
 
+.btn-bottom {
+color: #f1f1f1;
+text-decoration: none;
+width:150px;
+height:40px;
+border:1px solid #ffffff;
+border-radius:5px;
+text-align: center;
+line-height: 40px;
+}
+
 /* head */
 .container .head {
   width: 100%;
   height: 10%;
   position: absolute;
-  background-color: skyblue;
-  opacity: 0.6;
+  /* background-color: skyblue; */
   top: 2%;
   left: 0;
+  z-index:5;
 }
 
 .container .icon {
@@ -125,9 +141,7 @@ html {
      float: right;
     margin-left: 20px;
     padding-left: 20px;
-   line-height: 10%;
-   
-   
+   line-height: 10%;  
 }
 .head .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
@@ -135,11 +149,62 @@ html {
 }
 
 /* nain .swiper */
-.container .swiper-container {
+.container .main .swiper-container {
     position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 
 }
+ .swiper-slide .swiper-wr1 {
+   position: absolute;
+   /* left: 264px;
+   top: 325px; */
+   left: 28%;
+   bottom: 33%;
+}
+.swiper-slide .swiper-wr2 {
+    position: absolute;
+    right: 10%;
+    bottom: 35%;
+ }
+ .swiper-slide .swiper-wr3 {
+    position: absolute;
+    left: 15.3%;
+    bottom: 33%;
+ }
+ .swiper-slide .swiper-wr4 {
+    position: absolute;
+    right: 10%;
+    bottom: 35%;
+ }
 
+
+
+
+
+
+
+.container .main .swiper-pagination {
+    /* position: absolute; */
+    bottom: 45px;
+    left: 860px;
+}
+.container .main .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.5;
+}
+.container .main .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 3px;
+}
+.container .main .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #f1f1f1;
+}
 /* footer */
 .container .footer {
     width: 100%;
@@ -148,6 +213,7 @@ html {
     position: absolute;
     left: 0;
     bottom: 0;
+    z-index:1;
 }
 .container .footer .title {
     color: #f1f1f1f1;
@@ -166,4 +232,45 @@ html {
 }
 .container .footer span {
     padding-left: 30px;
+}
+
+/* bottombar */
+
+.container .bottombar {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: #1b1b1b;
+    bottom: 0;
+    left: 0;
+    
+}
+.bottombar .footerBox {
+    position: relative;
+    color: #f1f1f1;
+    /* float: left; */
+}
+.bottombar .footerBox .logopng {
+    position: absolute;
+    left: 50%;
+    top: 40px;  
+}
+.bottombar .footerBox .title {
+    position: absolute;
+    left: 43%;
+    top: 160px;  
+}
+.bottombar .footerBox .foot_tact {
+    position: absolute;
+    left: 15%;
+    top: 25px;
+}
+.bottombar .footerBox .foot_ewm {
+    position: absolute;
+    right: 15%;
+    top: 36px;
+}
+.bottombar .footerBox .foot_ewm span {
+    margin-left: 30px;
+    padding-top:20px;
 }
