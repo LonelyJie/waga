@@ -106,6 +106,13 @@ html {
         font-family: Helvetica, Verdana, "微软雅黑", "Source Sans Pro", sans-serif;
         font-size: 14px;
         color: #676a6d;
+        overflow-x: hidden;
+}
+
+.sardonyx {
+     width:30px;
+     height:5px;
+     background:linear-gradient(90deg,#e73562 0%,#f09082 100%);
 }
 
 .btn-bottom {
@@ -205,6 +212,16 @@ line-height: 40px;
     opacity: 1;
     background: #f1f1f1;
 }
+
+
+
+
+/* At the bottom of the public */
+/* At the bottom of the public */
+/* At the bottom of the public */
+
+
+
 /* footer */
 .container .footer {
     width: 100%;
@@ -239,10 +256,12 @@ line-height: 40px;
 .container .bottombar {
     width: 100%;
     height: 20%;
+    
     position: absolute;
     background-color: #1b1b1b;
-    bottom: 0;
     left: 0;
+    top: 2460px;
+  
     
 }
 .bottombar .footerBox {
@@ -273,4 +292,347 @@ line-height: 40px;
 .bottombar .footerBox .foot_ewm span {
     margin-left: 30px;
     padding-top:20px;
+}
+
+/* content */
+/* content */
+/* content */
+
+/* regard */
+
+.container .main {
+    width: 100%;
+    height: 100%;
+}
+
+.container .main .banner {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ .main .banner .about_company {
+    position: relative;
+    /* width: 1000px;
+    height: 500px;
+    background-color: red; */
+    left: 20%;
+    bottom: 300px;
+}
+.banner .about_company .about_le {
+    width:405px;
+    height:435px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(255,255,255,1);
+    border-radius:5px;
+    position: absolute;
+    left: 10%;
+    top: 0;
+    box-shadow:1px 2px 5px #b3b8be;
+    z-index: 3;
+}
+.about_company .about_le h2 {
+    position: relative;
+    left: 11.5%;
+    font-weight: 700;
+}
+.about_company .about_le p {
+    position: relative;
+    left: 11.5%;
+    font-weight: 400;
+    margin-top: 10px;
+   
+}
+.about_company .about_le .appearance {
+    position: relative;
+    left: 11.5%;
+    display: block;
+    margin-top: 10%;
+}
+.about_company .about_le .redbar_l {
+    position: relative;
+    left: 11.5%;
+    margin-top: 8%;
+}
+
+.banner .about_company .about_ri {
+    position: absolute;
+    right: 5%;
+    width:500px;
+    height:500px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(255,255,255,1);
+    border-radius:5px;
+    left: 30%;
+    top: 11%;
+    box-shadow:1px 2px 5px #b3b8be;
+    z-index: 2;
+}
+
+.about_company .about_ri .redbar_r {
+    position: relative;
+    left: 11.5%;
+    top: 12%;
+  
+
+}
+.about_company .about_ri .title_w {
+    position: absolute;
+    left: 11.5%;
+    top: 12%;
+    margin-top: 5%;
+    margin-left: 2%;
+        /* vertical-align: middle; */
+}
+
+/* 关于屏幕自适应 */
+/* @media (min-width: 1100px) {
+    body{font-size: 20px}
+    } 
+    @media (min-width: 1280px) {
+    body{font-size: 22px;}
+    }  */
+
+    /* @media (min-width: 1280px) {
+        .main .banner .about_company {
+            position: relative;
+            left: 20%;
+            bottom: 280px;
+        }
+        .banner .about_company .about_le {
+            width:200px;
+            height:255px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            position: absolute;
+            left: 10%;
+            top: 0;
+            box-shadow:1px 2px 5px #b3b8be;
+            z-index: 1;
+        }
+        .about_company .about_le .appearance {
+            position: relative;
+            left: 11.5%;
+            display: block;
+            margin-top: 10%;
+            width: 155px;
+            height: 117px;
+        }
+        .banner .about_company .about_ri {
+            position: absolute;
+            right: 5%;
+            width:300px;
+            height:520px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            left: 25%;
+            top: 11%;
+            box-shadow:1px 2px 5px #b3b8be;
+        }
+   
+    }  
+    
+     @media (min-width: 1440px) {
+        .main .banner .about_company {
+            position: relative;
+            left: 20%;
+            bottom: 300px;
+        }
+        .banner .about_company .about_le {
+            width:230px;
+            height:270px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            position: absolute;
+            left: 9%;
+            top: 0;
+            box-shadow:1px 2px 5px #b3b8be;
+            z-index: 1;
+        }
+        .about_company .about_le .appearance {
+            position: relative;
+            left: 11.5%;
+            display: block;
+            margin-top: 10%;
+            width: 155px;
+            height: 117px;
+        }
+        .banner .about_company .about_ri {
+            position: absolute;
+            right: 5%;
+            width:330px;
+            height:500px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            left: 25%;
+            top: 11%;
+            box-shadow:1px 2px 5px #b3b8be;
+        }
+    } 
+    
+    @media (min-width: 1680px) {
+        .main .banner .about_company {
+            position: relative;
+            left: 20%;
+            bottom: 370px;
+        }
+        .banner .about_company .about_le {
+            width:270px;
+            height:270px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            position: absolute;
+            left: 10%;
+            top: 0;
+            box-shadow:1px 2px 5px #b3b8be;
+            z-index: 1;
+        }
+        .about_company .about_le .appearance {
+            position: relative;
+            left: 11.5%;
+            display: block;
+            margin-top: 10%;
+            width: 155px;
+            height: 117px;
+        }
+        .banner .about_company .about_ri {
+            position: absolute;
+            right: 5%;
+            width:380px;
+            height:500px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            left: 25%;
+            top: 11%;
+            box-shadow:1px 2px 5px #b3b8be;
+        }
+    } 
+    
+    @media (min-width: 1920px) {
+        .main .banner .about_company {
+            position: relative;
+            left: 20%;
+            bottom: 370px;
+        }
+        .banner .about_company .about_le {
+            width:305px;
+            height:320px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            position: absolute;
+            left: 10%;
+            top: 0;
+            box-shadow:1px 2px 5px #b3b8be;
+            z-index: 1;
+        }
+        .about_company .about_le .appearance {
+            position: relative;
+            left: 11.5%;
+            display: block;
+            margin-top: 10%;
+            width: 155px;
+            height: 117px;
+        }
+        .banner .about_company .about_ri {
+            position: absolute;
+            right: 5%;
+            width:400px;
+            height:500px;
+            background:rgba(255,255,255,1);
+            border:1px solid rgba(255,255,255,1);
+            border-radius:5px;
+            left: 25%;
+            top: 11%;
+            box-shadow:1px 2px 5px #b3b8be;
+        }
+    }  */
+
+ .container .main .particulars_wg {
+        width: 100%;
+        /* height: 100%; */
+        position: absolute;
+    }
+
+
+
+
+    /* particulars_wg */
+
+.container .main .particulars_wg {
+    position: absolute;
+    width: 100%;
+    height: 860px;
+    top: 1070px;
+    left: 0;
+    /* background-color: skyblue; */
+}
+.main .particulars_wg .wahy_w {
+        position: relative;
+        top: 150px;
+        left: 720px;
+}
+.main .particulars_wg .lars_wg {
+    position: relative;
+    width:110px;
+    height:50px;
+    border:1px solid rgba(231,53,98,1);
+    top: 250px;
+    left: 800px;
+    display: table-cell;vertical-align: middle;
+
+}
+
+.main .particulars_wg .manage {
+    position: relative;
+     top: 270px;
+     left: 800px;
+     font-weight: 700;
+}
+
+.particulars_wg .case_cont ul{
+    margin: 5px  10px;
+    width: 800px;
+}
+.particulars_wg .case_cont .mask{
+    position: relative;
+    width:180px;
+    float: left;
+    height:220px;
+    background:#F3F5F8;
+    border:0px solid black;
+    left: 520px;
+    top: 220px;
+   margin: 40px 20px;
+   font-size: 8px;
+   text-align: left;
+}
+.particulars_wg .case_cont .mask img {
+    width: 50px;
+    height: 38px;
+}
+
+
+.container .main .honor_box {
+    position: absolute;
+    width: 100%;
+    height: 260px;
+    top: 2200px;
+    left: 0;
+}
+.main .honor_box .honor {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    /* z-index: 3; */
+    font-weight: 700;
+    color: #f1f1f1;
 }
