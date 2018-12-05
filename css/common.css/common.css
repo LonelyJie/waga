@@ -1,4 +1,5 @@
 /* 初始化代码 */
+
 body,
 div,
 dl,
@@ -30,7 +31,6 @@ td {
     box-sizing: border-box;
 }
 
-
 h1,
 h2,
 h3,
@@ -57,7 +57,7 @@ var {
 a {
     color: #3a474f;
     text-decoration: none;
-    font-size:14px;
+    font-size: 14px;
 }
 
 a:hover {
@@ -75,8 +75,6 @@ li {
     padding: 0;
 }
 
-
-
 table {
     border-collapse: collapse;
 }
@@ -93,116 +91,128 @@ table {
     *zoom: 1;
 }
 
-img { 
+img {
     max-width: 100%;
     /* margin: 0; */
-	height: auto;
+    height: auto;
 }
+
 .treatment {
-    width:50px;
-    height:18px;
-    background:#e5e7eb;
-    border-radius:5px;
+    width: 50px;
+    height: 18px;
+    background: #e5e7eb;
+    border-radius: 5px;
 }
+
 body,
 html {
     height: 100%;
     position: relative;
-        background-color: #F3F5F8;
-        font-family: Helvetica, Verdana, "微软雅黑", "Source Sans Pro", sans-serif;
-        font-size: 14px;
-        color: #676a6d;
-        overflow-x: hidden;
+    background-color: #F3F5F8;
+    font-family: Helvetica, Verdana, "微软雅黑", "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    color: #676a6d;
+    overflow-x: hidden;
 }
 
 .sardonyx {
-     width:30px;
-     height:5px;
-     background:linear-gradient(90deg,#e73562 0%,#f09082 100%);
+    width: 30px;
+    height: 5px;
+    background: linear-gradient(90deg, #e73562 0%, #f09082 100%);
+}
+
+.verticalBar {
+    width: 3px;
+    height: 9px;
+    background: rgba(231, 53, 98, 1);
 }
 
 .btn-bottom {
-color: #f1f1f1;
-text-decoration: none;
-width:150px;
-height:40px;
-border:1px solid #ffffff;
-border-radius:5px;
-text-align: center;
-line-height: 40px;
+    color: #f1f1f1;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
 }
 
 /* head */
+
 .container .head {
-  width: 100%;
-  height: 10%;
-  position: absolute;
-  /* background-color: skyblue; */
-  top: 2%;
-  left: 0;
-  z-index:5;
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    /* background-color: skyblue; */
+    top: 2%;
+    left: 0;
+    z-index: 5;
 }
 
 .container .icon {
-   /* padding-top: 45px; */
-   /* line-height: 10%; */
-   margin-left: 45px;
+    /* padding-top: 45px; */
+    /* line-height: 10%; */
+    margin-left: 45px;
 }
+
 .container .nav-pills li {
     color: #f1f1f1f1;
     display: block;
-     float: right;
+    float: right;
     margin-left: 20px;
     padding-left: 20px;
-   line-height: 10%;  
+    line-height: 10%;
 }
-.head .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+
+.head .nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #e73562;
 }
 
 /* nain .swiper */
+
 .container .main .swiper-container {
     position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
+}
 
-}
- .swiper-slide .swiper-wr1 {
-   position: absolute;
-   /* left: 264px;
+.swiper-slide .swiper-wr1 {
+    position: absolute;
+    /* left: 264px;
    top: 325px; */
-   left: 28%;
-   bottom: 33%;
+    left: 28%;
+    bottom: 33%;
 }
+
 .swiper-slide .swiper-wr2 {
     position: absolute;
     right: 10%;
     bottom: 35%;
- }
- .swiper-slide .swiper-wr3 {
+}
+
+.swiper-slide .swiper-wr3 {
     position: absolute;
     left: 15.3%;
     bottom: 33%;
- }
- .swiper-slide .swiper-wr4 {
+}
+
+.swiper-slide .swiper-wr4 {
     position: absolute;
     right: 10%;
     bottom: 35%;
- }
-
-
-
-
-
-
+}
 
 .container .main .swiper-pagination {
     /* position: absolute; */
     bottom: 45px;
     left: 860px;
 }
+
 .container .main .swiper-pagination-bullet {
     width: 10px;
     height: 10px;
@@ -211,24 +221,24 @@ line-height: 40px;
     background: #000;
     opacity: 0.5;
 }
+
 .container .main .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
     margin: 0 3px;
 }
+
 .container .main .swiper-pagination-bullet-active {
     opacity: 1;
     background: #f1f1f1;
 }
 
-
-
-
-/* At the bottom of the public */
-/* At the bottom of the public */
 /* At the bottom of the public */
 
+/* At the bottom of the public */
 
+/* At the bottom of the public */
 
 /* footer */
+
 .container .footer {
     width: 100%;
     height: 36px;
@@ -236,8 +246,9 @@ line-height: 40px;
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index:1;
+    z-index: 1;
 }
+
 .container .footer .title {
     color: #f1f1f1f1;
     position: relative;
@@ -246,6 +257,7 @@ line-height: 40px;
     line-height: 36px;
     left: 25px;
 }
+
 .container .footer .wechsina {
     position: relative;
     float: right;
@@ -253,6 +265,7 @@ line-height: 40px;
     right: 45px;
     line-height: 36px;
 }
+
 .container .footer span {
     padding-left: 30px;
 }
@@ -262,49 +275,48 @@ line-height: 40px;
 .container .bottombar {
     width: 100%;
     height: 20%;
-    
     position: absolute;
     background-color: #1b1b1b;
     left: 0;
     top: 2460px;
-  
-    
 }
+
 .bottombar .footerBox {
     position: relative;
     color: #f1f1f1;
     /* float: left; */
 }
+
 .bottombar .footerBox .logopng {
     position: absolute;
     left: 50%;
-    top: 40px;  
+    top: 40px;
 }
+
 .bottombar .footerBox .title {
     position: absolute;
     left: 43%;
-    top: 160px;  
+    top: 160px;
 }
+
 .bottombar .footerBox .foot_tact {
     position: absolute;
     left: 15%;
     top: 25px;
 }
+
 .bottombar .footerBox .foot_ewm {
     position: absolute;
     right: 15%;
     top: 36px;
 }
+
 .bottombar .footerBox .foot_ewm span {
     margin-left: 30px;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
-/* content */
-/* content */
-/* content */
-
-/* regard */
+/* content regard */
 
 .container .main {
     width: 100%;
@@ -319,7 +331,7 @@ line-height: 40px;
     left: 0;
 }
 
- .main .banner .about_company {
+.main .banner .about_company {
     position: relative;
     /* width: 1000px;
     height: 500px;
@@ -327,36 +339,40 @@ line-height: 40px;
     left: 20%;
     bottom: 300px;
 }
+
 .banner .about_company .about_le {
-    width:405px;
-    height:435px;
-    background:rgba(255,255,255,1);
-    border:1px solid rgba(255,255,255,1);
-    border-radius:5px;
+    width: 405px;
+    height: 435px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
     position: absolute;
     left: 10%;
     top: 0;
-    box-shadow:1px 2px 5px #b3b8be;
+    box-shadow: 1px 2px 5px #b3b8be;
     z-index: 3;
 }
+
 .about_company .about_le h2 {
     position: relative;
     left: 11.5%;
     font-weight: 700;
 }
+
 .about_company .about_le p {
     position: relative;
     left: 11.5%;
     font-weight: 400;
     margin-top: 10px;
-   
 }
+
 .about_company .about_le .appearance {
     position: relative;
     left: 11.5%;
     display: block;
     margin-top: 10%;
 }
+
 .about_company .about_le .redbar_l {
     position: relative;
     left: 11.5%;
@@ -366,14 +382,14 @@ line-height: 40px;
 .banner .about_company .about_ri {
     position: absolute;
     right: 5%;
-    width:500px;
-    height:500px;
-    background:rgba(255,255,255,1);
-    border:1px solid rgba(255,255,255,1);
-    border-radius:5px;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 5px;
     left: 30%;
     top: 11%;
-    box-shadow:1px 2px 5px #b3b8be;
+    box-shadow: 1px 2px 5px #b3b8be;
     z-index: 2;
 }
 
@@ -381,19 +397,19 @@ line-height: 40px;
     position: relative;
     left: 11.5%;
     top: 12%;
-  
-
 }
+
 .about_company .about_ri .title_w {
     position: absolute;
     left: 11.5%;
     top: 12%;
     margin-top: 5%;
     margin-left: 2%;
-        /* vertical-align: middle; */
+    /* vertical-align: middle; */
 }
 
 /* 关于屏幕自适应 */
+
 /* @media (min-width: 1100px) {
     body{font-size: 20px}
     } 
@@ -401,7 +417,7 @@ line-height: 40px;
     body{font-size: 22px;}
     }  */
 
-    /* @media (min-width: 1280px) {
+/* @media (min-width: 1280px) {
         .main .banner .about_company {
             position: relative;
             left: 20%;
@@ -562,16 +578,13 @@ line-height: 40px;
         }
     }  */
 
- .container .main .particulars_wg {
-        width: 100%;
-        /* height: 100%; */
-        position: absolute;
-    }
+.container .main .particulars_wg {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+}
 
-
-
-
-    /* particulars_wg */
+/* particulars_wg */
 
 .container .main .particulars_wg {
     position: absolute;
@@ -581,51 +594,54 @@ line-height: 40px;
     left: 0;
     /* background-color: skyblue; */
 }
+
 .main .particulars_wg .wahy_w {
-        position: relative;
-        top: 150px;
-        left: 720px;
+    position: relative;
+    top: 150px;
+    left: 720px;
 }
+
 .main .particulars_wg .lars_wg {
     position: relative;
-    width:110px;
-    height:50px;
-    border:1px solid rgba(231,53,98,1);
+    width: 110px;
+    height: 50px;
+    border: 1px solid rgba(231, 53, 98, 1);
     top: 250px;
     left: 800px;
-    display: table-cell;vertical-align: middle;
-
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .main .particulars_wg .manage {
     position: relative;
-     top: 270px;
-     left: 800px;
-     font-weight: 700;
+    top: 270px;
+    left: 800px;
+    font-weight: 700;
 }
 
-.particulars_wg .case_cont ul{
-    margin: 5px  10px;
+.particulars_wg .case_cont ul {
+    margin: 5px 10px;
     width: 800px;
 }
-.particulars_wg .case_cont .mask{
+
+.particulars_wg .case_cont .mask {
     position: relative;
-    width:180px;
+    width: 180px;
     float: left;
-    height:220px;
-    background:#F3F5F8;
-    border:0px solid black;
+    height: 220px;
+    background: #F3F5F8;
+    border: 0px solid black;
     left: 520px;
     top: 220px;
-   margin: 40px 20px;
-   font-size: 8px;
-   text-align: left;
+    margin: 40px 20px;
+    font-size: 8px;
+    text-align: left;
 }
+
 .particulars_wg .case_cont .mask img {
     width: 50px;
     height: 38px;
 }
-
 
 .container .main .honor_box {
     position: absolute;
@@ -634,6 +650,7 @@ line-height: 40px;
     top: 2200px;
     left: 0;
 }
+
 .main .honor_box .honor {
     position: absolute;
     top: 0;
@@ -643,8 +660,7 @@ line-height: 40px;
     color: #f1f1f1;
 }
 
-/* join us */
-
+/*  content join us  */
 
 .container .main .join_us {
     position: absolute;
@@ -655,38 +671,41 @@ line-height: 40px;
 }
 
 /*加入我们*/
-.container .main .recruitment_job{
+
+.container .main .recruitment_job {
     position: absolute;
     width: 100%;
     height: 905px;
     left: 0;
     top: 800px;
 }
+
 .main .recruitment_job .join_box {
     position: relative;
-    width:1100px;
-    height:1200px;
-    box-shadow:0px 3px 3px 0px #e7ecf1;
+    width: 1100px;
+    height: 1200px;
+    box-shadow: 0px 3px 3px 0px #e7ecf1;
     /* background-color: skyblue; */
-    border-radius:10px;
+    border-radius: 10px;
     bottom: 5%;
     margin: 0 auto;
     z-index: 0;
-
 }
-.join_title{
-   position: absolute;
-    top:8%;
+
+.join_title {
+    position: absolute;
+    top: 8%;
     left: 45%;
-
 }
-.join_title h2{
+
+.join_title h2 {
     color: #434343;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
 }
-.join_title p{
+
+.join_title p {
     font-size: 15px;
     color: #9F9F9F;
     text-align: center;
@@ -822,6 +841,7 @@ line-height: 40px;
     margin-right: 30px;
     /* margin: 0 auto; */
 }
+
 #jobInfo ul li {
     display: none;
     width: 550px;
@@ -844,3 +864,73 @@ line-height: 40px;
     color: #434343;
     line-height: 30px;
 }
+
+/* /*  content businessCooperation  */
+
+.container .main .cooperation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.container .main .businessCooperation {
+    position: absolute;
+    width: 100%;
+    top: 800px;
+    height: 100%;
+    left: 0;
+    /* background-color: skyblue; */
+}
+
+.main .businessCooperation .business {
+    position: relative;
+    /* margin: 0 auto; */
+    left: 30%;
+    margin: 40px;
+}
+
+.business .cooper_le {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.business .cooper_le .cooper_l img {
+    width: 26px;
+    height: 26px;
+}
+
+.business .cooper_le .cooper_l p {
+    width: 27px;
+    height: 5px;
+    background: rgba(231, 53, 98, 1);
+}
+
+.business .cooper_le .cooper_e h4 {
+    width: 100%;
+    height: 15px;
+    color: rgba(58, 71, 79, 1);
+    margin-bottom: 0;
+}
+
+.business .cooper_le .cooper_e p {
+    width: 100%;
+    height: 7px;
+    color: rgba(109, 115, 126, 1);
+    margin: 0 auto;
+}
+
+.business .cooper_ri {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.business .cooper_ri p {
+    width: 100%;
+    height: 10px;
+    ;
+    color: rgba(58, 71, 79, 1);
+    margin-top: 0;
+}
+
