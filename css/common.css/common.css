@@ -933,4 +933,102 @@ html {
     color: rgba(58, 71, 79, 1);
     margin-top: 0;
 }
+ 
+/*   content culture  */
+.container .main .culture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.container .main .enterpriseCulture {
+    position: absolute;
+    width: 100%;
+    top: 800px;
+    height: 100%;
+    left: 0;
+    /* background-color: skyblue; */
+}
 
+.main .enterpriseCulture .enterprise {
+    position: relative;
+    /* margin: 0 auto; */
+    left: 30%;
+    margin: 40px;
+}
+
+.enterprise .culture_le {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.enterprise .culture_le .culture_l p {
+    width:10px;
+    height:40px;
+    background:rgba(231,53,98,1);
+}
+.enterprise .culture_le .culture_l {
+    margin-right: 5px;
+}
+
+.enterprise .culture_le .culture_e h4 {
+    width: 100%;
+    height: 15px;
+    color: rgba(58, 71, 79, 1);
+    /* margin-bottom: 0; */
+    font-weight: 700;
+
+}
+
+.enterprise .culture_le .culture_e p {
+   
+    width:100%;
+    height:9px;
+    font-size:12px;
+    font-weight:400;
+    color:rgba(109,115,126,1);
+}
+
+.enterprise .culture_ri {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.enterprise .culture_ri p {
+    width:100%;
+    height:23px;
+    font-size:9px;
+    font-weight:400;
+    color:rgba(58,71,79,1);
+    line-height:15px;
+    margin-top: 0;
+}
+
+
+
+.main .enterpriseCulture .elegantDemeanour {
+    position: relative;
+    /* margin: 0 auto; */
+    left: 50%;
+    margin: 40px;
+}
+
+.main .enterpriseCulture .elegantDemeanour .lars_wg {
+    /* position: relative; */
+    width: 110px;
+    height: 50px;
+    border: 1px solid rgba(231, 53, 98, 1);
+    top: 260px;
+    /* left: 800px; */
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.main .enterpriseCulture .elegantDemeanour .manage {
+    /* position: relative; */
+    top: 270px;
+    /* left: 800px; */
+    font-weight: 700;
+    margin-bottom: 0;
+}
