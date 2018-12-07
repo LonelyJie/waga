@@ -183,10 +183,15 @@
                     <span class="logopng"><img src="./images/logo@2x.png" alt="" class="foot_logo"></span>
                     <div class="foot_ewm">
                         <p>关注我们</p>
-                        <a href="#" class="wechsina">
-                            <span><img src="./images/WeChat@2x.png" alt=""></span>
-                            <span><img src="./images/sina@2x.png" alt=""></span>
-                        </a>
+                        <div class="wechsina">
+                            <img src="./images/WeChat@2x.png">
+                            <div class="chat_ewmwg" style="display:none;">
+                                <img src="./images/Network essay@2x.png" alt="">
+                            </div>
+                    </div>
+                       <a href="https://weibo.com" class="weibo">
+                           <img  src="./images/sina@2x.png" alt="">
+                       </a>
                     </div>
                     <p class="title">京ICP备16045860号：网络文化经营许可证 京网文（2018） 2132-193号</p>
                 </div>
@@ -196,4 +201,11 @@
 </body>
 
 </html>
-<!-- Initialize Swiper -->
+<script>
+    /* WeChat displays the qr code */
+$(".wechsina").hover(function(){
+    $(this).find(".chat_ewmwg").slideDown(100,"linear");
+},function(){
+    $(this).find(".chat_ewmwg").slideUp(10,"linear");
+}).trigger("mouseleave");
+</script>

@@ -106,6 +106,7 @@ img {
 
 body,
 html {
+    width: 100%;
     height: 100%;
     position: relative;
     background-color: #F3F5F8;
@@ -259,17 +260,35 @@ html {
 }
 
 .container .footer .wechsina {
+    width: 30px;
+    height: 24px;
     position: relative;
     float: right;
-    /* margin-left: 10px; */
-    right: 45px;
+    right: 95px;
     line-height: 36px;
 }
 
-.container .footer span {
-    padding-left: 30px;
+.container .footer .weibo {
+    width: 30px;
+    height: 24px;
+    position: relative;
+    float: right;
+    line-height: 36px;
 }
-
+.chat_ewm{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    position: absolute;
+    left: -37px;
+    top: -100px;
+    z-index: 20;
+    text-align: center;
+    padding-top: 50%;
+}
+.chat_ewm img{
+    margin: 5px auto 0;
+}
 /* bottombar */
 
 .container .bottombar {
@@ -310,10 +329,31 @@ html {
     right: 15%;
     top: 36px;
 }
-
-.bottombar .footerBox .foot_ewm span {
-    margin-left: 30px;
-    padding-top: 20px;
+.footerBox .foot_ewm .wechsina{
+    width: 44px;
+    height: 36px;
+    float: left;
+    margin-right: 20px;
+}
+ .footerBox .foot_ewm .weibo {
+    width: 44px;
+    height: 36px;
+    float: left;
+    margin-left: 20px;
+}
+.chat_ewmwg{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    position: relative;
+    left: -100px;
+    top: -60px;
+    z-index: 20;
+    text-align: center;
+    padding-top: 50%;
+}
+.chat_ewmwg img{
+    margin: 5px auto 0;
 }
 
 /* content regard */
@@ -1010,7 +1050,7 @@ html {
 .main .enterpriseCulture .elegantDemeanour {
     position: relative;
     /* margin: 0 auto; */
-    left: 50%;
+    left: 47%;
     margin: 40px;
 }
 
@@ -1020,7 +1060,7 @@ html {
     height: 50px;
     border: 1px solid rgba(231, 53, 98, 1);
     top: 260px;
-    /* left: 800px; */
+    left: 800px;
     display: table-cell;
     vertical-align: middle;
 }
@@ -1032,3 +1072,192 @@ html {
     font-weight: 700;
     margin-bottom: 0;
 }
+
+
+.main .enterpriseCulture .gantDemean {
+    position: relative;
+    margin: 40px;
+    width: 100%;
+    height: 750px;
+    /* background-color: red; */
+}
+ .gantDemean .picone {
+     position: absolute;
+  width: 163px;
+  height: 163px;
+  left: 29%;
+}
+.gantDemean .pictwo {
+    position:absolute;
+    width: 97px;
+    height: 97px;
+    left: 36.9%;
+    top: 114px;
+  }
+
+  .gantDemean .picthr {
+      position: absolute;
+      right: 27%;
+    width: 163px;
+    height: 163px;
+    z-index: 3;
+    top: -10px;
+  }
+  .gantDemean .picfoo {
+    position:absolute;
+   width: 230px;
+   height: 230px;
+   right: 25%;
+   top: 130px;
+   z-index: 2;
+  }
+  .gantDemean .picfive {
+      position: absolute;
+    width: 163px;
+    height: 163px;
+    right: 36.5%;
+    top: 340px;
+  }
+  .gantDemean .picsix {
+      position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 23%;
+    top: 243px;
+  }
+
+  .main .teamActivity {
+    position: relative;
+    left: 20%;
+    top: 2210px;
+    width: 100%;
+    /* background-color: skyblue; */
+    left: 0;
+}
+
+.teamActivity .team_le .team_l {
+    margin-right: 5px;
+}
+
+.teamActivity .team_le .team_e h4 {
+    width: 100%;
+    height:15px;
+    font-weight:400;
+    color:rgba(58,71,79,1);
+}
+
+.teamActivity .team_le .team_e p {
+ width:100%;
+height:9px;
+font-weight:400;
+color:rgba(109,115,126,1);
+}
+
+
+
+
+
+
+.teamActivity .activity_wg {
+    float: right;
+    margin: 10px;
+    display: block;
+}
+.activity_wg .active_imale {
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    display: block;
+} 
+
+.activity_wg .active_ri .active_tl {
+    width: 100%;
+    height: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3a474f;
+}
+
+.activity_wg .active_ri .active_tr {
+    width: 100%;
+    height: 7px;
+    font-size: 9px;
+    color: #3a474f;
+    margin-left: 63%;
+}
+
+/* cultureBottombar  */
+/* cultureBottombar  */
+/* cultureBottombar  */
+
+.container .cultureBottombar {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    background-color: #1b1b1b;
+    left: 0;
+    top: 2960px;
+}
+
+.cultureBottombar .footerBox {
+    position: relative;
+    color: #f1f1f1;
+    /* float: left; */
+}
+
+.cultureBottombar .footerBox .logopng {
+    position: absolute;
+    left: 50%;
+    top: 40px;
+}
+
+.cultureBottombar .footerBox .title {
+    position: absolute;
+    left: 43%;
+    top: 160px;
+}
+
+.cultureBottombar .footerBox .foot_tact {
+    position: absolute;
+    left: 15%;
+    top: 25px;
+}
+
+.cultureBottombar .footerBox .foot_ewm {
+    position: absolute;
+    right: 15%;
+    top: 36px;
+}
+
+.cultureBottombar .footerBox .foot_ewm span {
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+
+/*back to top*/
+/* .side_bar {
+    width: 51px;
+    bottom: 50%;
+    right: 50px;
+    background-color: red;
+    z-index: 100;
+	position: fixed !important;
+	height: auto !important;
+    overflow: hidden !important;
+}
+.side_bar .back_to_top {
+    width: 51px;
+    height: 51px;
+    background: url("../../images/top-red@2x.png") no-repeat;
+    display: none;
+    cursor: pointer;
+}
+.side_bar .back_to_top:hover{
+    width: 51px;
+    height: 51px;
+    background: url("../../images/top-red@2x.png") no-repeat;
+    display: none;
+    cursor: pointer;
+} */

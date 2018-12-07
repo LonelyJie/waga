@@ -57,13 +57,21 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <div class="footer">
+        <div class="footer clearfix">
             <span class="title">广州哇嘎文化传媒有限公司</span>
-            <a href="#" class="wechsina">
+            <!-- <a href="#" class="wechsina">
                 <span><img src="./images/WeChat@2x.png" alt=""></span>
                 <span><img src="./images/sina@2x.png" alt=""></span>
-            </a>
+            </a> -->
+            <div class="wechsina">
+                <img src="./images/WeChat@2x.png">
+                <div class="chat_ewm" style="display: none;">
+                    <img src="./images/Network essay@2x.png" alt="">
+                </div>
         </div>
+           <a href="https://weibo.com" class="weibo">
+               <img  src="./images/sina@2x.png" alt="">
+           </a>
     </div>
 
 </body>
@@ -97,4 +105,13 @@
       autoplayDisableOnInteraction: false//点击后打断auto-play
     });
   </script>
- 
+ <script>
+     /* WeChat displays the qr code */
+$(".wechsina").hover(function(){
+                $(this).find(".chat_ewm").slideDown( 100, "linear" );
+            },function(){
+                $(this).find(".chat_ewm").slideUp( 10, "linear" );
+            }).trigger("mouseleave");
+			
+
+</script>
