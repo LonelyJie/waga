@@ -1,0 +1,477 @@
+/* /* 分辨率   比例 | 设备尺寸
+
+1024*500 （8.9寸）
+
+1024*768 （比例4：3  | 10.4寸、12.1寸、14.1寸、15寸; ）
+
+1280*800（16：10  |15.4寸）
+
+1280*1024(比例：5：4  | 14.1寸、15.0寸)
+
+1280*854(比例：15：10 | 15.2）
+
+1366*768 (比例：16：9 | 不常见）
+
+1440*900 （16：10  17寸 仅苹果用）
+
+1440*1050（比例：5：4  | 14.1寸、15.0寸）
+
+1600*1024（14：9  不常见）
+
+1600*1200 （4：3 | 15、16.1）
+
+1680*1050（16：10 | 15.4寸、20.0寸）
+
+1920*1200 (23寸）
+
+通过上面的电脑屏蔽及尺寸的例表上我们得到了几个宽度
+
+1024  1280  1366  1440  1680  1920  */
+
+
+@media (min-width: 1024px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* content regard */
+
+    .main .banner .about_company {
+        left: 12%;
+        bottom: 200px;
+    }
+
+    .banner .about_company .about_le {
+        left: -4.5%;
+    }
+
+
+    .container .main .particulars_wg {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* particulars_wg */
+
+    .container .main .particulars_wg {
+        position: absolute;
+        width: 100%;
+        height: 860px;
+        top: 1070px;
+        left: 0;
+    }
+
+    .main .particulars_wg .wahy_w {
+        left: 250px;
+    }
+
+    .main .particulars_wg .lars_wg {
+        position: relative;
+        width: 110px;
+        height: 50px;
+        border: 1px solid rgba(231, 53, 98, 1);
+        top: 250px;
+        left: 420px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .main .particulars_wg .manage {
+        position: relative;
+        top: 270px;
+        left: 420px;
+        font-weight: 700;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        position: relative;
+        width: 180px;
+        float: left;
+        height: 220px;
+        background: #F3F5F8;
+        border: 0px solid black;
+        left: 220px;
+        top: 220px;
+    }
+
+    /* bottombar */
+
+    .container .bottombar {
+        height: 38%;
+    }
+
+    .container .cultureBottombar {
+        height: 38%;
+    }
+
+    /* recruitment */
+    /*加入我们*/
+
+
+    #cbtn ul li {
+        width: 142px;
+        height: 133px;
+    }
+
+
+    #cbtn ul li p {
+        line-height: 133px;
+    }
+
+    .picSildeRight {
+        right: 10px;
+    }
+
+
+}
+
+/*>=1024的设备*/
+
+
+
+@media (min-width: 1280px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    /* content regard */
+
+    .main .banner .about_company {
+        left: 12%;
+        bottom: 200px;
+    }
+
+    .banner .about_company .about_le {
+        left: 2%;
+    }
+
+
+    .container .main .particulars_wg {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* particulars_wg */
+
+    .container .main .particulars_wg {
+        position: absolute;
+        width: 100%;
+        height: 860px;
+        top: 1070px;
+        left: 0;
+    }
+
+    .main .particulars_wg .wahy_w {
+        left: 250px;
+    }
+
+    .main .particulars_wg .lars_wg {
+        top: 250px;
+        left: 520px;
+    }
+
+    .main .particulars_wg .manage {
+        left: 520px;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        left: 320px;
+        top: 320px;
+    }
+    /* recruitment */
+    /*加入我们*/
+
+
+    #cbtn ul li {
+        width: 142px;
+        height: 133px;
+    }
+
+
+    #cbtn ul li p {
+        line-height: 133px;
+    }
+
+    .picSildeRight {
+        right: 10px;
+    }
+
+
+}
+
+/*>=1280的设备*/
+@media (min-width: 1366px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    /* content regard */
+
+    .banner .about_company .about_le {
+        left: 4%;
+    }
+
+
+    .main .particulars_wg .wahy_w {
+        left: 250px;
+    }
+
+    .main .particulars_wg .lars_wg {
+        top: 250px;
+        left: 520px;
+    }
+
+    .main .particulars_wg .manage {
+        left: 520px;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        left: 320px;
+        top: 320px;
+    }
+    /* recruitment */
+    /*加入我们*/
+
+
+    #cbtn ul li {
+        width: 142px;
+        height: 133px;
+    }
+
+
+    #cbtn ul li p {
+        line-height: 133px;
+    }
+
+    .picSildeRight {
+        right: 10px;
+    }
+
+}
+
+/*>=1360的设备*/
+
+@media (min-width: 1440px) {
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    /* content regard */
+
+    .banner .about_company .about_le {
+        left: 4%;
+    }
+
+
+    .main .particulars_wg .wahy_w {
+        left: 250px;
+    }
+
+    .main .particulars_wg .lars_wg {
+        top: 250px;
+        left: 560px;
+    }
+
+    .main .particulars_wg .manage {
+        left: 560px;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        left: 320px;
+        top: 320px;
+    }
+    /* recruitment */
+    /*加入我们*/
+
+
+    #cbtn ul li {
+        width: 142px;
+        height: 133px;
+    }
+
+
+    #cbtn ul li p {
+        line-height: 133px;
+    }
+
+    .picSildeRight {
+        right: 10px;
+    }
+
+}
+
+
+
+/*>=1440的设备*/
+
+@media (min-width: 1680px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+     /* content regard */
+
+     .main .banner .about_company {
+        left: 12%;
+        bottom: 200px;
+    }
+
+    .banner .about_company .about_le {
+        left: 9%;
+    }
+
+
+    .container .main .particulars_wg {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* particulars_wg */
+
+    .container .main .particulars_wg {
+        position: absolute;
+        width: 100%;
+        height: 860px;
+        top: 1070px;
+        left: 0;
+    }
+
+    .main .particulars_wg .wahy_w {
+        left: 450px;
+    }
+
+    .main .particulars_wg .lars_wg {
+        top: 250px;
+        left:690px;
+    }
+
+    .main .particulars_wg .manage {
+        left: 690px;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        left: 420px;
+        top: 320px;
+    }
+   
+    .picSildeLeft {
+        cursor: pointer;
+        position: absolute;
+        top: 55px;
+        left: -30px;
+        z-index: 9;
+    }
+    
+    .picSildeRight {
+        cursor: pointer;
+        position: absolute;
+        top: 55px;
+        right: -10px;
+        z-index: 9;
+    }
+    
+}
+
+
+
+/*>=1680的设备*/
+@media (min-width: 1920px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+     /* content regard */
+
+     .main .banner .about_company {
+        left: 20%;
+        bottom: 300px;
+    }
+
+    .banner .about_company .about_le {
+        left: 10%;
+    }
+
+
+    .container .main .particulars_wg {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* particulars_wg */
+
+    .container .main .particulars_wg {
+        position: absolute;
+        width: 100%;
+        height: 860px;
+        top: 1070px;
+        left: 0;
+    }
+
+    .main .particulars_wg .wahy_w {
+        left: 720px;
+    }
+
+    .main .particulars_wg .lars_wg {
+    left: 800px;
+    }
+
+    .main .particulars_wg .manage {
+        left: 800px;
+    }
+
+    .particulars_wg .case_cont ul {
+        margin: 5px 10px;
+        width: 800px;
+    }
+
+    .particulars_wg .case_cont .mask {
+        left: 520px;
+        top: 220px;
+    }
+   
+    .picSildeLeft {
+        cursor: pointer;
+        position: absolute;
+        top: 55px;
+        left: -20px;
+        z-index: 9;
+    }
+    
+    .picSildeRight {
+        cursor: pointer;
+        position: absolute;
+        top: 55px;
+        right: -20px;
+        z-index: 9;
+    }
+    
+}
+
+/*>=1920的设备*/
