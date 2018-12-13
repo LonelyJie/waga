@@ -109,7 +109,7 @@ html {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: #F3F5F8;
+    /* background-color: #F3F5F8; */
     font-family: Helvetica, Verdana, "微软雅黑", "Source Sans Pro", sans-serif;
     font-size: 14px;
     color: #676a6d;
@@ -275,7 +275,8 @@ html {
     float: right;
     line-height: 36px;
 }
-.chat_ewm{
+
+.chat_ewm {
     width: 90px;
     height: 90px;
     background-color: #fff;
@@ -286,9 +287,11 @@ html {
     text-align: center;
     padding-top: 50%;
 }
-.chat_ewm img{
+
+.chat_ewm img {
     margin: 5px auto 0;
 }
+
 /* bottombar */
 
 .container .bottombar {
@@ -309,39 +312,42 @@ html {
 .bottombar .footerBox .logopng {
     position: absolute;
     left: 50%;
-    top: 40px;
+    top: 100px;
 }
 
 .bottombar .footerBox .title {
     position: absolute;
     left: 43%;
-    top: 160px;
+    top: 250px;
 }
 
 .bottombar .footerBox .foot_tact {
     position: absolute;
     left: 15%;
-    top: 25px;
+    top: 100px;
 }
 
 .bottombar .footerBox .foot_ewm {
     position: absolute;
     right: 15%;
-    top: 36px;
+    top: 100px;
 }
-.footerBox .foot_ewm .wechsina{
+
+.footerBox .foot_ewm .wechsina {
     width: 44px;
     height: 36px;
     float: left;
     margin-right: 20px;
 }
- .footerBox .foot_ewm .weibo {
+
+.footerBox .foot_ewm .weibo {
     width: 44px;
     height: 36px;
     float: left;
     margin-left: 20px;
 }
-.chat_ewmwg{
+
+.chat_ewmwg {
     width: 90px;
     height: 90px;
     background-color: #fff;
@@ -352,7 +358,8 @@ html {
     text-align: center;
     padding-top: 50%;
 }
-.chat_ewmwg img{
+
+.chat_ewmwg img {
     margin: 5px auto 0;
 }
 
@@ -377,11 +384,12 @@ html {
     height: 500px;
     background-color: red; */
     left: 20%;
+    /* margin: 0 auto; */
     bottom: 300px;
 }
 
 .banner .about_company .about_le {
-    width: 405px;
+    width: 400px;
     height: 435px;
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -422,7 +430,7 @@ html {
 .banner .about_company .about_ri {
     position: absolute;
     right: 5%;
-    width: 500px;
+    width: 400px;
     height: 500px;
     background: rgba(255, 255, 255, 1);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -441,182 +449,8 @@ html {
 
 .about_company .about_ri .title_w {
     position: absolute;
-    left: 11.5%;
-    top: 12%;
-    margin-top: 5%;
-    margin-left: 2%;
-    /* vertical-align: middle; */
+    padding: 62px 39px 31px 44px;   
 }
-
-/* 关于屏幕自适应 */
-
-/* @media (min-width: 1100px) {
-    body{font-size: 20px}
-    } 
-    @media (min-width: 1280px) {
-    body{font-size: 22px;}
-    }  */
-
-/* @media (min-width: 1280px) {
-        .main .banner .about_company {
-            position: relative;
-            left: 20%;
-            bottom: 280px;
-        }
-        .banner .about_company .about_le {
-            width:200px;
-            height:255px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            position: absolute;
-            left: 10%;
-            top: 0;
-            box-shadow:1px 2px 5px #b3b8be;
-            z-index: 1;
-        }
-        .about_company .about_le .appearance {
-            position: relative;
-            left: 11.5%;
-            display: block;
-            margin-top: 10%;
-            width: 155px;
-            height: 117px;
-        }
-        .banner .about_company .about_ri {
-            position: absolute;
-            right: 5%;
-            width:300px;
-            height:520px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            left: 25%;
-            top: 11%;
-            box-shadow:1px 2px 5px #b3b8be;
-        }
-   
-    }  
-    
-     @media (min-width: 1440px) {
-        .main .banner .about_company {
-            position: relative;
-            left: 20%;
-            bottom: 300px;
-        }
-        .banner .about_company .about_le {
-            width:230px;
-            height:270px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            position: absolute;
-            left: 9%;
-            top: 0;
-            box-shadow:1px 2px 5px #b3b8be;
-            z-index: 1;
-        }
-        .about_company .about_le .appearance {
-            position: relative;
-            left: 11.5%;
-            display: block;
-            margin-top: 10%;
-            width: 155px;
-            height: 117px;
-        }
-        .banner .about_company .about_ri {
-            position: absolute;
-            right: 5%;
-            width:330px;
-            height:500px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            left: 25%;
-            top: 11%;
-            box-shadow:1px 2px 5px #b3b8be;
-        }
-    } 
-    
-    @media (min-width: 1680px) {
-        .main .banner .about_company {
-            position: relative;
-            left: 20%;
-            bottom: 370px;
-        }
-        .banner .about_company .about_le {
-            width:270px;
-            height:270px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            position: absolute;
-            left: 10%;
-            top: 0;
-            box-shadow:1px 2px 5px #b3b8be;
-            z-index: 1;
-        }
-        .about_company .about_le .appearance {
-            position: relative;
-            left: 11.5%;
-            display: block;
-            margin-top: 10%;
-            width: 155px;
-            height: 117px;
-        }
-        .banner .about_company .about_ri {
-            position: absolute;
-            right: 5%;
-            width:380px;
-            height:500px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            left: 25%;
-            top: 11%;
-            box-shadow:1px 2px 5px #b3b8be;
-        }
-    } 
-    
-    @media (min-width: 1920px) {
-        .main .banner .about_company {
-            position: relative;
-            left: 20%;
-            bottom: 370px;
-        }
-        .banner .about_company .about_le {
-            width:305px;
-            height:320px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            position: absolute;
-            left: 10%;
-            top: 0;
-            box-shadow:1px 2px 5px #b3b8be;
-            z-index: 1;
-        }
-        .about_company .about_le .appearance {
-            position: relative;
-            left: 11.5%;
-            display: block;
-            margin-top: 10%;
-            width: 155px;
-            height: 117px;
-        }
-        .banner .about_company .about_ri {
-            position: absolute;
-            right: 5%;
-            width:400px;
-            height:500px;
-            background:rgba(255,255,255,1);
-            border:1px solid rgba(255,255,255,1);
-            border-radius:5px;
-            left: 25%;
-            top: 11%;
-            box-shadow:1px 2px 5px #b3b8be;
-        }
-    }  */
 
 .container .main .particulars_wg {
     width: 100%;
@@ -637,7 +471,7 @@ html {
 
 .main .particulars_wg .wahy_w {
     position: relative;
-    top: 150px;
+    top: 155px;
     left: 720px;
 }
 
@@ -658,56 +492,152 @@ html {
     left: 800px;
     font-weight: 700;
 }
+/* .manage .p {
+   margin-top: 200px;
+} */
 
 .particulars_wg .case_cont ul {
     margin: 5px 10px;
-    width: 800px;
+    width: 900px;
 }
 
 .particulars_wg .case_cont .mask {
     position: relative;
     width: 180px;
     float: left;
-    height: 220px;
-    background: #F3F5F8;
+    height: 180px;
+    /* background: #F3F5F8; */
     border: 0px solid black;
-    left: 520px;
-    top: 220px;
+    left: 540px;
+    top: 260px;
     margin: 40px 20px;
     font-size: 8px;
-    text-align: left;
+  padding: 5px;
 }
-
-.particulars_wg .case_cont .mask img {
-    width: 50px;
-    height: 38px;
+.mask h3 {
+    width:48px;
+height:12px;
+font-size:12px;
+font-weight:bold;
+color:rgba(58,71,79,1);
 }
+.mask p {
+    width:160px;
+height:44px;
+font-size:8px;
+font-weight:400;
+color:rgba(58,71,79,1);
+line-height:12px;
+}
+.mask{position: relative;width:100px;height:100px;}
+.mask:before,.mask:after{content:"";display:block;width: 0;height:0;border:2px solid transparent;box-sizing: border-box;position: absolute;}
+ 
+.mask:before{top:0;left:0;box-shadow:0px 3px 3px 0px #c8d0d6;}
+.mask:after{right:0;bottom:0;box-shadow:0px 3px 3px 0px #c8d0d6;}
+ 
+.mask:hover:before{width:100%;height:100%;}
+.mask:hover:after{width:100%;height:100%;}
 
-.container .main .honor_box {
+
+ .container .main .honor_box {
     position: absolute;
     width: 100%;
-    height: 260px;
-    top: 2200px;
+    height: 460px;
+    top: 2000px;
     left: 0;
 }
 
 .main .honor_box .honor {
     position: absolute;
-    top: 0;
+    top:30px;
     left: 45%;
-    /* z-index: 3; */
     font-weight: 700;
     color: #f1f1f1;
+} 
+
+
+/*合作企业*/
+.honor_sroll {
+    width: 960px;
+    height: 241px;
+    overflow: auto;
+    position: relative;
+    margin: 60px auto 0;
+}
+.honor_sroll li {
+    margin-left: 25px;
+    float: left;
+}
+.honor_sroll li:first-child {
+    margin-left: 0;
+}
+.honor_sroll li img {
+    width: 224px;
+    height: 145px;
+}
+.honor_sroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #fff;
+    border-radius: 16px;
 }
 
-/*  content join us  */
-
-.container .main .join_us {
+.mCustomScrollBox {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    max-width: 100%;
+	outline: none;
+}
+.mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-right: 0;
+    margin-bottom: 30px;
+}
+.mCSB_container {
+    overflow: hidden;
+    height: auto;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    width: 80%;
+    height: 16px;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+}
+.mCSB_scrollTools {
+    opacity: 0.75;
+    filter: "alpha(opacity=75)";
+    -ms-filter: "alpha(opacity=75)";
+}
+.mCSB_scrollTools {
     position: absolute;
-    width: 100%;
-    height: 400px;
-    left: 0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+    position: absolute;
     top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: auto;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger {
+    height: 100%;
+}
+.mCSB_scrollTools .mCSB_dragger {
+    cursor: pointer;
+    z-index: 1;
+}
+.mCS-light-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar, .mCS-light-3.mCSB_scrollTools_horizontal .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools_horizontal .mCSB_draggerRail {
+    width: 100%;
+    height: 8px;
+    margin: 5px 0;
+}
+.mCS-light-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail {
+    background-color: #1B1B1B;
+    border-radius: 5px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #E17E1F;
+    border-radius: 16px;
 }
 
 /*加入我们*/
@@ -973,7 +903,7 @@ html {
     color: rgba(58, 71, 79, 1);
     margin-top: 0;
 }
- 
+
 /*   content culture  */
 .container .main .culture {
     position: absolute;
@@ -982,6 +912,7 @@ html {
     top: 0;
     left: 0;
 }
+
 .container .main .enterpriseCulture {
     position: absolute;
     width: 100%;
@@ -1004,10 +935,11 @@ html {
 }
 
 .enterprise .culture_le .culture_l p {
-    width:10px;
-    height:40px;
-    background:rgba(231,53,98,1);
+    width: 10px;
+    height: 40px;
+    background: rgba(231, 53, 98, 1);
 }
+
 .enterprise .culture_le .culture_l {
     margin-right: 5px;
 }
@@ -1022,12 +954,12 @@ html {
 }
 
 .enterprise .culture_le .culture_e p {
-   
-    width:100%;
-    height:9px;
-    font-size:12px;
-    font-weight:400;
-    color:rgba(109,115,126,1);
+
+    width: 100%;
+    height: 9px;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
 }
 
 .enterprise .culture_ri {
@@ -1036,12 +968,12 @@ html {
 }
 
 .enterprise .culture_ri p {
-    width:100%;
-    height:23px;
-    font-size:9px;
-    font-weight:400;
-    color:rgba(58,71,79,1);
-    line-height:15px;
+    width: 100%;
+    height: 23px;
+    font-size: 9px;
+    font-weight: 400;
+    color: rgba(58, 71, 79, 1);
+    line-height: 15px;
     margin-top: 0;
 }
 
@@ -1081,52 +1013,57 @@ html {
     height: 750px;
     /* background-color: red; */
 }
- .gantDemean .picone {
-     position: absolute;
-  width: 163px;
-  height: 163px;
-  left: 29%;
+
+.gantDemean .picone {
+    position: absolute;
+    width: 163px;
+    height: 163px;
+    left: 29%;
 }
+
 .gantDemean .pictwo {
-    position:absolute;
+    position: absolute;
     width: 97px;
     height: 97px;
     left: 36.9%;
     top: 114px;
-  }
+}
 
-  .gantDemean .picthr {
-      position: absolute;
-      right: 27%;
+.gantDemean .picthr {
+    position: absolute;
+    right: 27%;
     width: 163px;
     height: 163px;
     z-index: 3;
     top: -10px;
-  }
-  .gantDemean .picfoo {
-    position:absolute;
-   width: 230px;
-   height: 230px;
-   right: 25%;
-   top: 130px;
-   z-index: 2;
-  }
-  .gantDemean .picfive {
-      position: absolute;
+}
+
+.gantDemean .picfoo {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    right: 25%;
+    top: 130px;
+    z-index: 2;
+}
+
+.gantDemean .picfive {
+    position: absolute;
     width: 163px;
     height: 163px;
     right: 36.5%;
     top: 340px;
-  }
-  .gantDemean .picsix {
-      position: absolute;
+}
+
+.gantDemean .picsix {
+    position: absolute;
     width: 163px;
     height: 163px;
     left: 23%;
     top: 243px;
-  }
+}
 
-  .main .teamActivity {
+.main .teamActivity {
     position: relative;
     left: 20%;
     top: 2210px;
@@ -1141,16 +1078,16 @@ html {
 
 .teamActivity .team_le .team_e h4 {
     width: 100%;
-    height:15px;
-    font-weight:400;
-    color:rgba(58,71,79,1);
+    height: 15px;
+    font-weight: 400;
+    color: rgba(58, 71, 79, 1);
 }
 
 .teamActivity .team_le .team_e p {
- width:100%;
-height:9px;
-font-weight:400;
-color:rgba(109,115,126,1);
+    width: 100%;
+    height: 9px;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
 }
 
 
@@ -1163,13 +1100,14 @@ color:rgba(109,115,126,1);
     margin: 10px;
     display: block;
 }
+
 .activity_wg .active_imale {
     width: 150px;
     height: 150px;
     float: left;
     margin-left: 20px;
     display: block;
-} 
+}
 
 .activity_wg .active_ri .active_tl {
     width: 100%;
@@ -1209,25 +1147,25 @@ color:rgba(109,115,126,1);
 .cultureBottombar .footerBox .logopng {
     position: absolute;
     left: 50%;
-    top: 40px;
+    top: 100px;
 }
 
 .cultureBottombar .footerBox .title {
     position: absolute;
     left: 43%;
-    top: 160px;
+    top: 250px;
 }
 
 .cultureBottombar .footerBox .foot_tact {
     position: absolute;
     left: 15%;
-    top: 25px;
+    top: 100px;
 }
 
 .cultureBottombar .footerBox .foot_ewm {
     position: absolute;
     right: 15%;
-    top: 36px;
+    top: 100px;
 }
 
 .cultureBottombar .footerBox .foot_ewm span {

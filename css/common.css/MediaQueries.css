@@ -93,8 +93,8 @@
         position: relative;
         width: 180px;
         float: left;
-        height: 220px;
-        background: #F3F5F8;
+        height: 180px;
+        /* background: #F3F5F8; */
         border: 0px solid black;
         left: 220px;
         top: 220px;
@@ -103,11 +103,11 @@
     /* bottombar */
 
     .container .bottombar {
-        height: 38%;
+        height: 35%;
     }
 
     .container .cultureBottombar {
-        height: 38%;
+        height: 35%;
     }
 
     /* recruitment */
@@ -452,8 +452,8 @@
     }
 
     .particulars_wg .case_cont .mask {
-        left: 520px;
-        top: 220px;
+        left: 540px;
+        top: 260px;
     }
    
     .picSildeLeft {
