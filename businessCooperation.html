@@ -229,14 +229,37 @@
                    </div>
                
         </div>
+          <!-- back to top -->
+          <div class="side_bar pof ho">
+                <div class="back_to_top"></div>
+        </div>
     </div> 
 </body>
 </html>
 <script>
-    /* WeChat displays the qr code */
-$(".wechsina").hover(function(){
-        $(this).find(".chat_ewmwg").slideDown(100,"linear");
-},function(){
-        $(this).find(".chat_ewmwg").slideUp(10,"linear");
-}).trigger("mouseleve");
+        $(document).ready(function () {
+                /* WeChat displays the qr code */
+                $(".wechsina").hover(function () {
+                        $(this).find(".chat_ewmwg").slideDown(100, "linear");
+                }, function () {
+                        $(this).find(".chat_ewmwg").slideUp(10, "linear");
+                }).trigger("mouseleave");
+
+                /*右侧返回顶部设置 */
+                $('body').scroll(function () {
+                        var vscroll = $('body').scrollTop();
+                        if (vscroll > 100) {
+                                $('.back_to_top').css('display', 'block');
+                        } else {
+                                $('.back_to_top').css('display', 'none');
+                        }
+                });
+                $('.back_to_top').click(function () {
+                        $('html,body').animate({
+                                scrollTop: 0
+                        }, 300);
+                })
+
+
+        });
 </script>

@@ -13,7 +13,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <!-- CSS  -->
         <link rel="stylesheet" href="./css/common.css/common.css">
-        <link rel="stylesheet" href="./css/common.css/MediaQueries.css">
+        <!-- <link rel="stylesheet" href="./css/common.css/MediaQueries.css"> -->
         <!-- JS -->
         <script src="./js/common.js/common.js"></script>
         <!-- jQuery 3.3.1 -->
@@ -133,7 +133,7 @@
                         <div class="teamActivity">
                                 <div class="team_le" style="float:left;">
                                         <div class="team_l" style="float:left;">
-                                                <p class="verticalBar" style=" width:10px; height:45px; background-color:#e73562;"></p>
+                                                <p class="verticalBar" style=" width:10px; height:50px; background-color:#e73562;"></p>
                                         </div>
                                         <div class="team_e" style="float:left;">
                                                 <h4>团队活动</h4>
@@ -224,19 +224,39 @@
                         </div>
 
                 </div>
+                <!-- back to top -->
+                <div class="side_bar pof ho">
+                        <div class="back_to_top"></div>
+                </div>
         </div>
-           <!-- back to top -->
-           <!-- <div class="side_bar pof ho">
-                   <div class="back_to_top" onclick="window.scrollTo(0,0);return false;"></div>
-           </div> -->
+
 </body>
 
 </html>
 <script>
-        /* WeChat displays the qr code */
-        $(".wechsina").hover(function () {
-                $(this).find(".chat_ewmwg").slideDown(100, "linear");
-        }, function () {
-                $(this).find(".chat_ewmwg").slideUp(10, "linear");
-        }).trigger("mouseleave");
+        $(document).ready(function () {
+                /* WeChat displays the qr code */
+                $(".wechsina").hover(function () {
+                        $(this).find(".chat_ewmwg").slideDown(100, "linear");
+                }, function () {
+                        $(this).find(".chat_ewmwg").slideUp(10, "linear");
+                }).trigger("mouseleave");
+
+                /*右侧返回顶部设置 */
+                $('body').scroll(function () {
+                        var vscroll = $('body').scrollTop();
+                        if (vscroll > 100) {
+                                $('.back_to_top').css('display', 'block');
+                        } else {
+                                $('.back_to_top').css('display', 'none');
+                        }
+                });
+                $('.back_to_top').click(function () {
+                        $('html,body').animate({
+                                scrollTop: 0
+                        }, 300);
+                })
+
+
+        });
 </script>
