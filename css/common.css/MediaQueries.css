@@ -103,11 +103,11 @@
     /* bottombar */
 
     .container .bottombar {
-        height: 35%;
+        height: 40%;
     }
 
     .container .cultureBottombar {
-        height: 35%;
+        height: 40%;
     }
 
     /* recruitment */
@@ -124,9 +124,9 @@
         line-height: 133px;
     }
 
-    .picSildeRight {
+    /* .picSildeRight {
         right: 10px;
-    }
+    } */
 
 
 }
@@ -203,12 +203,22 @@
         line-height: 133px;
     }
 
-    .picSildeRight {
+    /* .picSildeRight {
         right: 10px;
-    }
+    } */
 
 
 }
+
+    /* bottombar */
+
+    /* .container .bottombar {
+        height: 30%;
+    }
+
+    .container .cultureBottombar {
+        height: 30%;
+    } */
 
 /*>=1280的设备*/
 @media (min-width: 1366px) {
@@ -259,11 +269,21 @@
         line-height: 133px;
     }
 
-    .picSildeRight {
+    /* .picSildeRight {
         right: 10px;
-    }
+    } */
 
 }
+
+    /* bottombar */
+/* 
+    .container .bottombar {
+        height: 30%;
+    }
+
+    .container .cultureBottombar {
+        height: 30%;
+    } */
 
 /*>=1360的设备*/
 
@@ -316,11 +336,21 @@
         line-height: 133px;
     }
 
-    .picSildeRight {
+    /* .picSildeRight {
         right: 10px;
-    }
+    } */
 
 }
+
+    /* bottombar */
+
+    /* .container .bottombar {
+        height: 30%;
+    }
+
+    .container .cultureBottombar {
+        height: 30%;
+    } */
 
 
 
@@ -385,7 +415,7 @@
         cursor: pointer;
         position: absolute;
         top: 55px;
-        left: -30px;
+        left: -40px;
         z-index: 9;
     }
     
@@ -393,11 +423,21 @@
         cursor: pointer;
         position: absolute;
         top: 55px;
-        right: -10px;
+        right: -40px;
         z-index: 9;
     }
     
 }
+
+    /* bottombar */
+
+    /* .container .bottombar {
+        height: 30%;
+    }
+
+    .container .cultureBottombar {
+        height: 30%;
+    } */
 
 
 
@@ -460,7 +500,7 @@
         cursor: pointer;
         position: absolute;
         top: 55px;
-        left: -20px;
+        left: -40px;
         z-index: 9;
     }
     
@@ -468,10 +508,20 @@
         cursor: pointer;
         position: absolute;
         top: 55px;
-        right: -20px;
+        right: -40px;
         z-index: 9;
     }
     
 }
+
+    /* bottombar */
+
+    .container .bottombar {
+        height: 30%;
+    }
+
+    .container .cultureBottombar {
+        height: 30%;
+    }
 
 /*>=1920的设备*/

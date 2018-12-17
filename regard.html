@@ -289,6 +289,8 @@
 </body>
 
 </html>
+<!-- <script src="./dist/js/touchTouch.jquery.js"></script> -->
+<!-- <script type="text/javascript" src="./dist/js/mCustomScrollbar.concat.min.js"></script> -->
 <script>
     $(document).ready(function () {
         /* WeChat displays the qr code */
@@ -314,49 +316,57 @@
         });
         /*合作-鼠标移入效果*/
 
-        // $(".honor .honor_sroll").each(function(){
-        // 	$(this).find("a").touchTouch();
-        // });
+        $(".honor .honor_sroll").each(function(){
+        	$(this).find("a").touchTouch();
+        });
         //火狐兼容
-        var firefox = navigator.userAgent.indexOf('Firefox') != -1;
+        // var firefox = navigator.userAgent.indexOf('Firefox') != -1;
 
-        function MouseWheel(e) {
-            e = e || window.event;
-            if (e.stopPropagation) {
-                e.stopPropagation();
-            } else {
-                e.cancelBubble = true;
-            }
+        // function MouseWheel(e) {
+        //     e = e || window.event;
+        //     if (e.stopPropagation) {
+        //         e.stopPropagation();
+        //     } else {
+        //         e.cancelBubble = true;
+        //     }
 
-            if (e.preventDefault) {
-                e.preventDefault();
-            } else {
-                e.returnValue = false;
-            }
+        //     if (e.preventDefault) {
+        //         e.preventDefault();
+        //     } else {
+        //         e.returnValue = false;
+        //     }
 
-            // document.title=(e.wheelDelta+'|'+e.detail); 
+        //     // document.title=(e.wheelDelta+'|'+e.detail); 
 
-            if (firefox) {
-                if (e.detail < 0) {
-                    $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() + 60);
-                } else {
-                    $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() - 60);
-                }
-            } else {
-                if (e.wheelDelta > 0) {
-                    $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() + 60);
-                } else {
-                    $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() - 60);
-                }
-            }
-        }
+        //     if (firefox) {
+        //         if (e.detail < 0) {
+        //             $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() + 60);
+        //         } else {
+        //             $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() - 60);
+        //         }
+        //     } else {
+        //         if (e.wheelDelta > 0) {
+        //             $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() + 60);
+        //         } else {
+        //             $('#mCSB_1').scrollLeft($('#mCSB_1').scrollLeft() - 60);
+        //         }
+        //     }
+        // }
 
-        window.onload = function () {
-            var abc = document.getElementById('mCSB_1');
-            firefox ? abc.addEventListener('DOMMouseScroll', MouseWheel, false) : (abc.onmousewheel =
-                MouseWheel);
-        }
+        // window.onload = function () {
+        //     var abc = document.getElementById('mCSB_1');
+        //     firefox ? abc.addEventListener('DOMMouseScroll', MouseWheel, false) : (abc.onmousewheel =
+        //         MouseWheel);
+        // }
 
+        // $(window).load(function(){
+        //     $("#content-1").mCustomScrollbar({
+        //         axis:"x",
+        //         theme:"light-3",
+        //         advanced:{autoExpandHorizontalScroll:true}
+        //     });
+            
+        // });
 
 
     });

@@ -610,8 +610,8 @@ html {
 }
 
 .honor_sroll li img {
-    width: 224px;
-    height: 145px;
+    width: 200px;
+    height: 100px;
 }
 
 .honor_sroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
@@ -715,7 +715,7 @@ html {
 .main .recruitment_job .join_box {
     position: relative;
     width: 1100px;
-    height: 1200px;
+    height: 1350px;
     box-shadow: 0px 3px 3px 0px #e7ecf1;
     background-color: #ffffff;
     border-radius: 10px;
@@ -776,7 +776,7 @@ html {
     width: 100%;
     height: 100%;
     display: block;
-    /* opacity: 0.1; */
+    opacity: 1;
     position: absolute;
     left: 0;
     top: 0;
@@ -786,7 +786,7 @@ html {
 #cbtn ul li strong {
     width: 100%;
     height: 100%;
-    background-color: rgba(225, 126, 31, 0.9);
+    background-color: #e73562;
     position: absolute;
     left: 0;
     top: 0;
@@ -808,7 +808,7 @@ html {
     text-align: center;
 }
 
-/* #cbtn ul li.hov img {
+#cbtn ul li.hov img {
     opacity: 1;
 }
 
@@ -819,7 +819,7 @@ html {
 #cbtn ul li.hov strong {
     display: block;
     z-index: 10;
-} */
+}
 
 .ctrl div {
     clear: both;
@@ -838,7 +838,7 @@ html {
     cursor: pointer;
     position: absolute;
     top: 55px;
-    left: -20px;
+    left: -40px;
     z-index: 9;
 }
 
@@ -846,7 +846,7 @@ html {
     cursor: pointer;
     position: absolute;
     top: 55px;
-    right: -20px;
+    right: -40px;
     z-index: 9;
 }
 
@@ -1203,14 +1203,15 @@ html {
     padding-left: 200px;
     margin-top: 20px;
 }
+  
+
 
 /* cultureBottombar  */
-/* cultureBottombar  */
-/* cultureBottombar  */
+
 
 .container .cultureBottombar {
     width: 100%;
-    height: 30%;
+    height: 20%;
     position: absolute;
     background-color: #1b1b1b;
     left: 0;
