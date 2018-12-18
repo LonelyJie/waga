@@ -98,10 +98,11 @@ img {
 }
 
 .treatment {
-    width: 50px;
-    height: 18px;
+    width: 56px;
+    height: 20px;
     background: #e5e7eb;
-    border-radius: 5px;
+    /* background:red; */
+    border-radius: 6px;
 }
 
 body,
@@ -296,11 +297,12 @@ html {
 
 .container .bottombar {
     width: 100%;
-    height: 20%;
+    height: 32%;
     position: absolute;
     background-color: #1b1b1b;
     left: 0;
-    top: 2460px;
+    /* top: 2460px; */
+    top: 2660px;
 }
 
 .bottombar .footerBox {
@@ -311,14 +313,15 @@ html {
 
 .bottombar .footerBox .logopng {
     position: absolute;
-    left: 50%;
-    top: 100px;
+    left: 47%;
+    top: 85px;
+    /* top: 33.3%; */
 }
 
 .bottombar .footerBox .title {
     position: absolute;
-    left: 43%;
-    top: 250px;
+    left: 38.5%;
+    top: 225px;
 }
 
 .bottombar .footerBox .foot_tact {
@@ -329,7 +332,7 @@ html {
 
 .bottombar .footerBox .foot_ewm {
     position: absolute;
-    right: 15%;
+    right: 13%;
     top: 100px;
 }
 
@@ -396,7 +399,7 @@ html {
     border-radius: 5px;
     position: absolute;
     left: 10%;
-    top: 0;
+    top: -60px;
     box-shadow: 1px 2px 5px #b3b8be;
     z-index: 3;
 }
@@ -471,31 +474,46 @@ html {
 
 .main .particulars_wg .wahy_w {
     position: relative;
-    top: 155px;
+    top: 110px;
     left: 720px;
 }
 
 .main .particulars_wg .lars_wg {
     position: relative;
-    width: 210px;
-    height: 10px;
+    width: 124px;
+    height: 56px;
     border: 1px solid rgba(231, 53, 98, 1);
-    top: 250px;
-    left: 800px;
+    top: 240px;
+    left: 898px;
     display: table-cell;
     vertical-align: middle;
 }
 
 .main .particulars_wg .manage {
     position: relative;
-    top: 270px;
-    left: 800px;
-    font-weight: 700;
+    top: 280px;
+    left: 920px;
 }
 
-/* .manage .p {
-   margin-top: 200px;
-} */
+.manage h2 {
+    width: 100%;
+    height: 16px;
+    font-size: 17px;
+    font-family: SourceHanSansCN-Bold;
+    font-weight: bold;
+    color: rgba(58, 71, 79, 1);
+}
+
+.manage p {
+    width: 100%;
+    height: 10px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
+    position: absolute;
+    left: -20px;
+}
 
 .particulars_wg .case_cont ul {
     margin: 5px 10px;
@@ -504,33 +522,35 @@ html {
 
 .particulars_wg .case_cont .mask {
     position: relative;
-    width: 180px;
+    width: 203px;
     float: left;
-    height: 180px;
-    /* background: #F3F5F8; */
+    height: 203px;
     border: 0px solid black;
-    left: 540px;
-    top: 260px;
+    left: 585px;
+    /* left: 30.46%; */
+    top: 280px;
     margin: 40px 20px;
     font-size: 8px;
-    padding: 5px;
+    padding: 10px 12px 35px 10px;
 }
 
 .mask h3 {
-    width: 48px;
-    height: 12px;
-    font-size: 12px;
+    width: 100%;
+    height: 13px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Bold;
     font-weight: bold;
     color: rgba(58, 71, 79, 1);
 }
 
 .mask p {
-    width: 160px;
-    height: 44px;
-    font-size: 8px;
+    width: 100%;
+    height: 50px;
+    font-size: 9px;
+    font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(58, 71, 79, 1);
-    line-height: 12px;
+    line-height: 14px;
 }
 
 .mask {
@@ -545,7 +565,8 @@ html {
     display: block;
     width: 0;
     height: 0;
-    border: 2px solid transparent;
+    /* border: 2px solid transparent; */
+    border: 1px solid #dbe3ee;
     box-sizing: border-box;
     position: absolute;
 }
@@ -577,7 +598,7 @@ html {
     position: absolute;
     width: 100%;
     height: 460px;
-    top: 2000px;
+    top: 2120px;
     left: 0;
 }
 
@@ -615,7 +636,7 @@ html {
 }
 
 .honor_sroll .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-    background-color: #fff;
+    background-color: #c13656;
     border-radius: 16px;
 }
 
@@ -702,6 +723,7 @@ html {
     height: 100%;
     top: 0;
     left: 0;
+    /* border-top: 1px dashed red;  */
 }
 
 .container .main .recruitment_job {
@@ -719,15 +741,15 @@ html {
     box-shadow: 0px 3px 3px 0px #e7ecf1;
     background-color: #ffffff;
     border-radius: 10px;
-    bottom: 5%;
+    bottom: 6%;
     margin: 0 auto;
     z-index: 0;
 }
 
 .join_title {
     position: absolute;
-    top: 8%;
-    left: 45%;
+    top: 3%;
+    left: 8%;
 }
 
 .join_title h2 {
@@ -738,9 +760,13 @@ html {
 }
 
 .join_title p {
-    font-size: 15px;
-    color: #9F9F9F;
     text-align: center;
+    width: 100%;
+    height: 10px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
 }
 
 .imgnav {
@@ -868,10 +894,9 @@ html {
 
 #jobInfo ul .trea {
     position: relative;
-    /* top: 100px; */
     float: left;
-    margin-right: 30px;
-    /* margin: 0 auto; */
+    /* margin-right: 30px; */
+    /* padding: 5px; */
 }
 
 #jobInfo ul li {
@@ -987,7 +1012,7 @@ html {
 .main .enterpriseCulture .enterprise {
     position: relative;
     /* margin: 0 auto; */
-    left: 30%;
+    left: 28.51%;
     margin: 40px;
 }
 
@@ -998,7 +1023,7 @@ html {
 
 .enterprise .culture_le .culture_l p {
     width: 10px;
-    height: 50px;
+    height: 35px;
     background: rgba(231, 53, 98, 1);
 }
 
@@ -1008,18 +1033,19 @@ html {
 
 .enterprise .culture_le .culture_e h4 {
     width: 100%;
-    height: 15px;
+    height: 16px;
+    font-size: 17px;
+    font-family: SourceHanSansCN-Bold;
+    font-weight: bold;
     color: rgba(58, 71, 79, 1);
-    /* margin-bottom: 0; */
-    font-weight: 700;
 
 }
 
 .enterprise .culture_le .culture_e p {
-
     width: 100%;
-    height: 9px;
-    font-size: 12px;
+    height: 10px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(109, 115, 126, 1);
 }
@@ -1031,12 +1057,12 @@ html {
 
 .enterprise .culture_ri p {
     width: 100%;
-    height: 23px;
+    height: 26px;
     font-size: 9px;
+    font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(58, 71, 79, 1);
-    line-height: 15px;
-    margin-top: 0;
+    line-height: 17px;
 }
 
 
@@ -1044,33 +1070,32 @@ html {
 .main .enterpriseCulture .elegantDemeanour {
     position: relative;
     /* margin: 0 auto; */
-    left: 47%;
+    left: 45%;
     margin: 40px;
 }
 
 .main .enterpriseCulture .elegantDemeanour .lars_wg {
-    /* position: relative; */
-    width: 110px;
-    height: 50px;
+    position: absolute;
+    width: 124px;
+    height: 56px;
     border: 1px solid rgba(231, 53, 98, 1);
-    top: 260px;
-    left: 800px;
+    top: 20px;
+    left: 0;
     display: table-cell;
     vertical-align: middle;
 }
 
 .main .enterpriseCulture .elegantDemeanour .manage {
-    /* position: relative; */
-    top: 270px;
-    /* left: 800px; */
-    font-weight: 700;
-    margin-bottom: 0;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+
 }
 
 
 .main .enterpriseCulture .gantDemean {
     position: relative;
-    margin: 40px;
+    margin-top: 250px;
     width: 100%;
     height: 550px;
     left: 0;
@@ -1203,7 +1228,7 @@ html {
     padding-left: 200px;
     margin-top: 20px;
 }
-  
+
 
 
 /* cultureBottombar  */
@@ -1211,11 +1236,12 @@ html {
 
 .container .cultureBottombar {
     width: 100%;
-    height: 20%;
+    height: 32%;
     position: absolute;
     background-color: #1b1b1b;
     left: 0;
-    top: 2960px;
+    /* top: 2960px; */
+    top: 3000px;
 }
 
 .cultureBottombar .footerBox {
@@ -1226,14 +1252,14 @@ html {
 
 .cultureBottombar .footerBox .logopng {
     position: absolute;
-    left: 50%;
-    top: 100px;
+    left: 47%;
+    top: 85px;
 }
 
 .cultureBottombar .footerBox .title {
     position: absolute;
-    left: 43%;
-    top: 250px;
+    left: 38.5%;
+    top: 225px;
 }
 
 .cultureBottombar .footerBox .foot_tact {
@@ -1244,14 +1270,14 @@ html {
 
 .cultureBottombar .footerBox .foot_ewm {
     position: absolute;
-    right: 15%;
+    right: 14%;
     top: 100px;
 }
 
-.cultureBottombar .footerBox .foot_ewm span {
+/* .cultureBottombar .footerBox .foot_ewm span {
     margin-left: 30px;
     padding-top: 20px;
-}
+} */
 
 
 /* backtotop */
@@ -1280,11 +1306,3 @@ html {
     cursor: pointer;
 
 }
-
-
-
-
-
-
-
-
