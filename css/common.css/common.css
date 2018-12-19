@@ -407,21 +407,31 @@ html {
 .about_company .about_le h2 {
     position: relative;
     left: 11.5%;
+    height: 16px;
+    font-size: 28px;
+    font-family: SourceHanSansCN-Bold;
     font-weight: 700;
+    color: rgba(58,71,79,1);
+    top: 10px;
 }
 
 .about_company .about_le p {
     position: relative;
     left: 11.5%;
-    font-weight: 400;
     margin-top: 10px;
+height:10px;
+font-size:20px;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(109,115,126,1);
+top: 20px;
 }
 
 .about_company .about_le .appearance {
     position: relative;
     left: 11.5%;
     display: block;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .about_company .about_le .redbar_l {
@@ -495,24 +505,26 @@ html {
     left: 920px;
 }
 
-.manage h2 {
+.particulars_wg .manage h2 {
     width: 100%;
     height: 16px;
-    font-size: 17px;
+    font-size: 28px;
     font-family: SourceHanSansCN-Bold;
     font-weight: bold;
     color: rgba(58, 71, 79, 1);
+    margin-left: -23px;
 }
 
-.manage p {
+.particulars_wg .manage p {
     width: 100%;
     height: 10px;
-    font-size: 14px;
+    font-size: 20px;
     font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(109, 115, 126, 1);
     position: absolute;
-    left: -20px;
+    left: -65px;
+    padding-top: 15px;
 }
 
 .particulars_wg .case_cont ul {
@@ -537,20 +549,22 @@ html {
 .mask h3 {
     width: 100%;
     height: 13px;
-    font-size: 14px;
+    font-size: 17px;
     font-family: SourceHanSansCN-Bold;
     font-weight: bold;
     color: rgba(58, 71, 79, 1);
+
 }
 
 .mask p {
     width: 100%;
-    height: 50px;
-    font-size: 9px;
+    /* height: 50px; */
+    font-size: 13px;
     font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(58, 71, 79, 1);
-    line-height: 14px;
+    line-height: 22px;
+    padding-top: 13px;
 }
 
 .mask {
@@ -604,10 +618,19 @@ html {
 
 .main .honor_box .honor {
     position: absolute;
-    top: 30px;
-    left: 45%;
+    top: 50px;
+    left: 47.3%;
     font-weight: 700;
     color: #f1f1f1;
+}
+.honor_box .honor p {
+
+height:10px;
+font-size:20px;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(224,224,224,1);
+margin-left: -69px;
 }
 
 
@@ -757,13 +780,14 @@ html {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+    margin-left: -36px;
 }
 
 .join_title p {
     text-align: center;
     width: 100%;
     height: 10px;
-    font-size: 14px;
+    font-size: 20px;
     font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(109, 115, 126, 1);
@@ -890,6 +914,7 @@ html {
     position: relative;
     margin: 0 auto;
     overflow: hidden;
+    padding-top: 100px;
 }
 
 #jobInfo ul .trea {
@@ -944,7 +969,7 @@ html {
 .main .businessCooperation .business {
     position: relative;
     /* margin: 0 auto; */
-    left: 30%;
+    left: 36%;
     margin: 40px;
 }
 
@@ -954,39 +979,41 @@ html {
 }
 
 .business .cooper_le .cooper_l img {
-    width: 26px;
-    height: 26px;
+    margin-top: 15px;
+    border: 1px dashed #888888;
 }
 
 .business .cooper_le .cooper_l p {
-    width: 27px;
-    height: 5px;
+    width: 55px;
+    height: 8px;
     background: rgba(231, 53, 98, 1);
 }
-
+.business .cooper_e {
+    margin-top: 30px;
+    margin-left: 10px;
+}
 .business .cooper_le .cooper_e h4 {
-    width: 100%;
-    height: 15px;
-    color: rgba(58, 71, 79, 1);
-    margin-bottom: 0;
+    font-size:18px;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(58,71,79,1);
 }
 
 .business .cooper_le .cooper_e p {
-    width: 100%;
-    height: 7px;
-    color: rgba(109, 115, 126, 1);
-    margin: 0 auto;
+    font-size:14px;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(109,115,126,1);
 }
 
 .business .cooper_ri {
     margin-left: 40px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .business .cooper_ri p {
     width: 100%;
-    height: 10px;
-    ;
+    height: 18px;
     color: rgba(58, 71, 79, 1);
     margin-top: 0;
 }
@@ -1023,18 +1050,18 @@ html {
 
 .enterprise .culture_le .culture_l p {
     width: 10px;
-    height: 35px;
+    height: 45px;
     background: rgba(231, 53, 98, 1);
 }
 
 .enterprise .culture_le .culture_l {
-    margin-right: 5px;
+    margin-right:10px;
 }
 
 .enterprise .culture_le .culture_e h4 {
     width: 100%;
-    height: 16px;
-    font-size: 17px;
+    /* height: 18px; */
+    font-size: 18px;
     font-family: SourceHanSansCN-Bold;
     font-weight: bold;
     color: rgba(58, 71, 79, 1);
@@ -1043,11 +1070,12 @@ html {
 
 .enterprise .culture_le .culture_e p {
     width: 100%;
-    height: 10px;
-    font-size: 14px;
+    /* height: 10px; */
+    font-size: 16px;
     font-family: SourceHanSansCN-Regular;
     font-weight: 400;
     color: rgba(109, 115, 126, 1);
+    padding-top: 8px;
 }
 
 .enterprise .culture_ri {
@@ -1162,21 +1190,24 @@ html {
 }
 
 .teamActivity .team_le .team_l {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .teamActivity .team_le .team_e h4 {
-    width: 100%;
-    height: 15px;
-    font-weight: 400;
-    color: rgba(58, 71, 79, 1);
+font-size:18px;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(58,71,79,1);
+padding-top: 2px;
+
 }
 
 .teamActivity .team_le .team_e p {
-    width: 100%;
-    height: 9px;
-    font-weight: 400;
-    color: rgba(109, 115, 126, 1);
+    font-size:14px;
+    font-family:SourceHanSansCN-Regular;
+    font-weight:400;
+    color:rgba(109,115,126,1);
+    padding-top: 10px;
 }
 
 
@@ -1218,7 +1249,7 @@ html {
     height: 7px;
     font-size: 9px;
     color: #3a474f;
-    margin-left: 76%;
+    margin-left: 84%;
 }
 
 .team_list .activity_wg .active_ri {

@@ -1561,7 +1561,7 @@ h1,
 h2,
 h3 {
     margin-top: 20px;
-    margin-bottom: 10px
+    /* margin-bottom: 10px */
 }
 
 .h1 .small,
@@ -5124,12 +5124,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-left: 2px
 }
 
-.nav-pills>li.active>a,
+/* .nav-pills>li.active>a,
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: #337ab7
-}
+} */
 
 .nav-stacked>li {
     float: none
