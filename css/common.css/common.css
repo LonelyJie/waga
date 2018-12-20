@@ -637,10 +637,10 @@ margin-left: -69px;
 /*合作企业*/
 .honor_sroll {
     width: 960px;
-    height: 241px;
+    height: 200px;
     overflow: auto;
     position: relative;
-    margin: 60px auto 0;
+    margin: 80px auto 0;
     right: 40%;
 }
 
@@ -1255,12 +1255,62 @@ padding-top: 2px;
 .team_list .activity_wg .active_ri {
     left: 180px;
     width: 100%;
-    /* text-align: center; */
+    text-align: center;
     padding-left: 200px;
     margin-top: 20px;
 }
 
-
+/* 分页 */
+.pageCulture {
+    position: absolute;
+    right: 20px;
+    bottom: -30px;
+    text-align: center; 
+}
+.pageCulture ul {
+    width: 100;
+  position: relative;
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+.pageCulture .page_l {
+    position: absolute;
+    left: -40px;
+    top: 3px;
+}
+.pageCulture .page_r {
+    position: absolute;
+    right: -40px;
+    top: 3px;
+}
+.pageCulture li {
+    /* padding: 5px 7px; */
+    color: #767675;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+}
+.pageCulture li a {
+    display: block; 
+    width: 24px;
+   height: 24px;
+    line-height: 24px; 
+    text-align: center;
+    text-decoration: none;
+}
+ .pageList {
+   margin-left: 5px;
+   width: 24px;
+   height: 24px;
+    line-height: 24px; 
+    text-align: center;
+   border-radius:50%;
+}
+ .pageList:hover {
+    color: #f1f1f1f1;
+    background:rgba(231,53,98,1);
+}
 
 /* cultureBottombar  */
 

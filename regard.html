@@ -149,12 +149,8 @@
                 <div class="honor clearfix">
                     <h2>合作企业</h2>
                     <p>COOPERATIVE ENTERPRISE</p>
-                    <div id="content-1" class="honor_sroll horizontal-images mCustomScrollbar _mCS_1">
-                        <div id="mCSB_1" class="mCustomScrollBox mCS-light-3 mCSB_horizontal mCSB_inside" style="max-height: none;"
-                            tabindex="0">
-                            <div id="mCSB_1_container" class="mCSB_container" style="position: relative; top: 20px; left: 0px; width: 4707px; min-width: 100%; overflow-x: inherit;"
-                                dir="ltr">
-                                <ul>
+                    <div id="content-1" class="honor_sroll horizontal-images">
+                            <ul>
                                     <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
                                     <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
                                     <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
@@ -167,19 +163,20 @@
                                     <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
                                     <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
                                     <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
-                                </ul>
-                            </div>
-                            <div id="mCSB_1_scrollbar_horizontal" class="mCSB_scrollTools mCSB_1_scrollbar mCS-light-3 mCSB_scrollTools_horizontal"
-                                style="display: block;">
-                                <div class="mCSB_draggerContainer">
-                                    <div id="mCSB_1_dragger_horizontal" class="mCSB_dragger" style="position: absolute; min-width: 0px; display: block; width: 157px; max-width: 758px; left: 0px;">
-                                        <div class="mCSB_dragger_bar"></div>
-                                    </div>
-                                    <div class="mCSB_draggerRail"></div>
-                                </div>
-                            </div>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/huawei.jpg" /></a></li>
+                                    <li><a href="#"><img src="./images/dianxin.jpg" /></a></li>
+                            </ul>
                         </div>
-                    </div>
                 </div>
 
             </div>
@@ -217,8 +214,9 @@
 </body>
 
 </html>
-<!-- <script src="./dist/js/touchTouch.jquery.js"></script> -->
-<!-- <script type="text/javascript" src="./dist/js/mCustomScrollbar.concat.min.js"></script> -->
+<script type="text/javascript" src="./dist/js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="./dist/js/touchTouch.jquery.js"></script>
+<script type="text/javascript" src="./dist/js/mCustomScrollbar.concat.min.js"></script>
 <script>
     $(document).ready(function () {
         /* WeChat displays the qr code */
@@ -244,10 +242,17 @@
         });
         /*合作-鼠标移入效果*/
 
-        // $(".honor .honor_sroll").each(function(){
-        //	$(this).find("a").touchTouch();
-        //});
-   
-
+        $(".honor .honor_sroll").each(function(){
+        	$(this).find("a").touchTouch();
+        });
+         
+        $(window).load(function(){
+            $("#content-1").mCustomScrollbar({
+                axis:"x",
+                theme:"light-3",
+                advanced:{autoExpandHorizontalScroll:true}
+            });
+        });
     });
+   
 </script>
