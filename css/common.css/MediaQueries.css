@@ -33,11 +33,13 @@
         width: 100%;
         height: 100%;
     }
+
     /* content regard */
     .main .banner .about_company {
         left: 12%;
         bottom: 200px;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -50,6 +52,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -63,11 +66,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: -240px;
         left: 273px;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -78,11 +83,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: -128px;
         left: 479px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -96,6 +103,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     .container .main .honor_box {
         position: absolute;
         width: 100%;
@@ -103,9 +111,11 @@
         top: 1770px;
         left: 0;
     }
+
     .main .honor_box .box_hoimg {
         height: 460px;
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -116,6 +126,7 @@
         /* top: 2460px; */
         top: 2230px;
     }
+
     /* culture */
     .container .main .enterpriseCulture {
         position: absolute;
@@ -124,12 +135,14 @@
         height: 100%;
         left: 0;
     }
+
     .main .enterpriseCulture .enterprise {
         position: relative;
         /* margin: 0 auto; */
         left: 17.51%;
         margin: 26px;
     }
+
     .main .enterpriseCulture .gantDemean {
         position: relative;
         margin-top: 250px;
@@ -138,6 +151,7 @@
         left: 0;
         /* background-color: red; */
     }
+
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
         width: 124px;
@@ -148,17 +162,20 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 100px;
         left: -26px;
     }
+
     .gantDemean .picone {
         position: absolute;
         width: 163px;
         height: 163px;
         left: 24.3%;
     }
+
     .gantDemean .pictwo {
         position: absolute;
         width: 97px;
@@ -166,6 +183,7 @@
         left: 38.9%;
         top: 114px;
     }
+
     .gantDemean .picthr {
         position: absolute;
         right: 20.5%;
@@ -174,6 +192,7 @@
         z-index: 3;
         top: -10px;
     }
+
     .gantDemean .picfoo {
         position: absolute;
         width: 230px;
@@ -182,6 +201,7 @@
         top: 130px;
         z-index: 2;
     }
+
     .gantDemean .picfive {
         position: absolute;
         width: 163px;
@@ -189,6 +209,7 @@
         right: 36.5%;
         top: 340px;
     }
+
     .gantDemean .picsix {
         position: absolute;
         width: 163px;
@@ -196,6 +217,7 @@
         left: 19.5%;
         top: 238px;
     }
+
     .main .teamActivity {
         position: relative;
         left: 20%;
@@ -205,6 +227,7 @@
         left: 0;
         height: 600px;
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -214,16 +237,18 @@
         left: 0;
         top: 2440px;
     }
+
     /* recruitment */
     #cbtn ul li {
         float: left;
-        width: 137px;
+        width: 152px;
         height: 143px;
         cursor: pointer;
         text-align: center;
         margin-right: 3px;
         position: relative;
     }
+
     .main .recruitment_job .join_box {
         position: relative;
         width: 912px;
@@ -235,13 +260,15 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     .picSildeRight {
         cursor: pointer;
         position: absolute;
         top: 55px;
-        right: 30px;
+        right: -30px;
         z-index: 9;
     }
+
     .container .main .businessCooperation {
         position: absolute;
         width: 100%;
@@ -259,6 +286,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -271,6 +299,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -284,11 +313,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: -217px;
         left: 300px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -302,6 +333,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -312,6 +344,7 @@
         /* top: 2460px; */
         top: 2230px;
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -330,6 +363,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -342,6 +376,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -355,11 +390,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: -140px;
         left: 414px;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -370,11 +407,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: 11px;
         left: 610px;
     }
+
     .container .main .honor_box {
         position: absolute;
         width: 100%;
@@ -382,6 +421,7 @@
         top: 1940px;
         left: 0;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -395,6 +435,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     /* culture */
     .container .main .enterpriseCulture {
         position: absolute;
@@ -403,6 +444,7 @@
         height: 100%;
         left: 0;
     }
+
     .main .enterpriseCulture .enterprise {
         position: relative;
         /* margin: 0 auto; */
@@ -410,6 +452,7 @@
         margin: 26px;
         top: 132px;
     }
+
     .main .teamActivity {
         position: relative;
         left: 20%;
@@ -418,6 +461,7 @@
         left: 0;
         height: 600px;
     }
+
     .main .enterpriseCulture .gantDemean {
         position: relative;
         margin-top: 416px;
@@ -426,6 +470,7 @@
         left: 0;
         /* background-color: red; */
     }
+
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
         width: 124px;
@@ -436,17 +481,20 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 210px;
         left: -13px;
     }
+
     .gantDemean .picone {
         position: absolute;
         width: 163px;
         height: 163px;
         left: 27.3%;
     }
+
     .gantDemean .pictwo {
         position: absolute;
         width: 97px;
@@ -454,6 +502,7 @@
         left: 38.9%;
         top: 114px;
     }
+
     .gantDemean .picthr {
         position: absolute;
         right: 22.5%;
@@ -462,6 +511,7 @@
         z-index: 3;
         top: -10px;
     }
+
     .gantDemean .picfoo {
         position: absolute;
         width: 230px;
@@ -470,6 +520,7 @@
         top: 130px;
         z-index: 2;
     }
+
     .gantDemean .picfive {
         position: absolute;
         width: 163px;
@@ -477,6 +528,7 @@
         right: 36.2%;
         top: 340px;
     }
+
     .gantDemean .picsix {
         position: absolute;
         width: 163px;
@@ -484,6 +536,7 @@
         left: 23.5%;
         top: 227px;
     }
+
     .main .recruitment_job .join_box {
         position: relative;
         width: 1100px;
@@ -495,6 +548,7 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     .container .main .businessCooperation {
         position: absolute;
         width: 100%;
@@ -503,6 +557,7 @@
         left: -109px;
         /* background-color: skyblue; */
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -513,6 +568,7 @@
         /* top: 2460px; */
         top: 2400px;
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -531,6 +587,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -543,6 +600,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -556,11 +614,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: -93px;
         left: 468px;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -571,11 +631,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: 35px;
         left: 649px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -589,6 +651,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     /* culture */
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
@@ -601,17 +664,20 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 225px;
         left: -8px;
     }
+
     .gantDemean .picone {
         position: absolute;
         width: 163px;
         height: 163px;
         left: 30.3%;
     }
+
     .gantDemean .pictwo {
         position: absolute;
         width: 97px;
@@ -619,6 +685,7 @@
         left: 40.9%;
         top: 114px;
     }
+
     .gantDemean .picthr {
         position: absolute;
         right: 24.5%;
@@ -627,6 +694,7 @@
         z-index: 3;
         top: -10px;
     }
+
     .gantDemean .picfoo {
         position: absolute;
         width: 230px;
@@ -635,6 +703,7 @@
         top: 130px;
         z-index: 2;
     }
+
     .gantDemean .picfive {
         position: absolute;
         width: 163px;
@@ -642,6 +711,7 @@
         right: 36.2%;
         top: 340px;
     }
+
     .gantDemean .picsix {
         position: absolute;
         width: 163px;
@@ -649,6 +719,7 @@
         left: 24.5%;
         top: 225px;
     }
+
     .main .recruitment_job .join_box {
         position: relative;
         width: 1100px;
@@ -660,6 +731,7 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -670,6 +742,7 @@
         /* top: 2460px; */
         top: 2400px;
     }
+
     .footerBox .foot_ewm .weibo {
         width: 44px;
         height: 36px;
@@ -677,17 +750,20 @@
         margin-left: 27px;
         margin-right: 10px;
     }
+
     .bottombar .footerBox .title {
         position: absolute;
         left: 33.5%;
         top: 225px;
     }
+
     .bottombar .footerBox .logopng {
         position: absolute;
         left: 45.5%;
         top: 85px;
         /* top: 33.3%; */
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -706,6 +782,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -718,6 +795,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -731,11 +809,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: -50px;
         left: 471px;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -746,11 +826,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: 70px;
         left: 684px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -763,6 +845,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     /* culture */
     .container .main .enterpriseCulture {
         position: absolute;
@@ -771,6 +854,7 @@
         height: 100%;
         left: 0;
     }
+
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
         width: 124px;
@@ -782,11 +866,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 230px;
         left: -8px;
     }
+
     .main .recruitment_job .join_box {
         position: relative;
         width: 1100px;
@@ -798,6 +884,7 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -808,6 +895,7 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: 215px;
@@ -822,6 +910,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -834,6 +923,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -847,11 +937,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: 86px;
         left: 613px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 203px;
@@ -864,6 +956,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     .container .main .honor_box {
         position: absolute;
         width: 100%;
@@ -871,6 +964,7 @@
         top: 2115px;
         left: 0;
     }
+
     /* culture */
     .container .main .enterpriseCulture {
         position: absolute;
@@ -880,12 +974,14 @@
         left: 0;
         /* background-color: skyblue; */
     }
+
     .main .enterpriseCulture .enterprise {
         position: relative;
         /* margin: 0 auto; */
         left: 23.51%;
         margin: 26px;
     }
+
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
         width: 124px;
@@ -896,11 +992,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 266px;
         left: 9px;
     }
+
     .main .enterpriseCulture .gantDemean {
         position: relative;
         margin-top: 400px;
@@ -909,12 +1007,14 @@
         left: 0;
         /* background-color: red; */
     }
+
     .gantDemean .picone {
         position: absolute;
         width: 163px;
         height: 163px;
         left: 34.3%;
     }
+
     .gantDemean .pictwo {
         position: absolute;
         width: 97px;
@@ -922,6 +1022,7 @@
         left: 42.9%;
         top: 104px;
     }
+
     .gantDemean .picthr {
         position: absolute;
         right: 32.5%;
@@ -930,6 +1031,7 @@
         z-index: 3;
         top: -10px;
     }
+
     .gantDemean .picfoo {
         position: absolute;
         width: 230px;
@@ -938,6 +1040,7 @@
         top: 130px;
         z-index: 2;
     }
+
     .gantDemean .picfive {
         position: absolute;
         width: 163px;
@@ -945,6 +1048,7 @@
         right: 42.5%;
         top: 340px;
     }
+
     .gantDemean .picsix {
         position: absolute;
         width: 163px;
@@ -952,6 +1056,7 @@
         left: 33.5%;
         top: 233px;
     }
+
     .main .teamActivity {
         position: relative;
         left: 20%;
@@ -961,6 +1066,7 @@
         left: 0;
         height: 600px;
     }
+
     /* recruitment */
     .main .recruitment_job .join_box {
         position: relative;
@@ -973,6 +1079,7 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     /* businesscooperation */
     .main .businessCooperation .business {
         position: relative;
@@ -981,6 +1088,7 @@
         margin: 40px;
         top: 100px;
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -991,6 +1099,7 @@
         /* top: 2460px; */
         top: 2575px;
     }
+
     .footerBox .foot_ewm .weibo {
         width: 44px;
         height: 36px;
@@ -998,27 +1107,32 @@
         margin-left: 27px;
         margin-right: 10px;
     }
+
     .bottombar .footerBox .foot_tact {
         position: absolute;
         left: 14.5%;
         top: 100px;
     }
+
     .bottombar .footerBox .foot_ewm {
         position: absolute;
         right: 13%;
         top: 100px;
     }
+
     .bottombar .footerBox .title {
         position: absolute;
         left: 36.5%;
         top: 225px;
     }
+
     .bottombar .footerBox .logopng {
         position: absolute;
         left: 46.5%;
         top: 85px;
         /* top: 33.3%; */
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -1028,16 +1142,19 @@
         left: 0;
         top: 2940px;
     }
+
     .cultureBottombar .footerBox .logopng {
         position: absolute;
         left: 46.4%;
         top: 85px;
     }
+
     .cultureBottombar .footerBox .title {
         position: absolute;
         left: 36.5%;
         top: 225px;
     }
+
     .cultureBottombar .footerBox .foot_tact {
         position: absolute;
         left: 15%;
@@ -1052,6 +1169,7 @@
         width: 100%;
         height: 100%;
     }
+
     .banner .about_company .about_le {
         width: 400px;
         height: 435px;
@@ -1064,6 +1182,7 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 3;
     }
+
     .banner .about_company .about_ri {
         position: absolute;
         right: 5%;
@@ -1077,11 +1196,13 @@
         box-shadow: 1px 2px 5px #b3b8be;
         z-index: 2;
     }
+
     .main .particulars_wg .wahy_w {
         position: relative;
         top: 210px;
         left: 755px;
     }
+
     .main .particulars_wg .lars_wg {
         position: relative;
         width: 124px;
@@ -1092,11 +1213,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .particulars_wg .manage {
         position: relative;
         top: 360px;
         left: 928px;
     }
+
     .particulars_wg .case_cont .mask {
         position: relative;
         width: 240px;
@@ -1109,6 +1232,7 @@
         font-size: 8px;
         padding: 10px 12px 35px 10px;
     }
+
     .container .main .honor_box {
         position: absolute;
         width: 100%;
@@ -1116,6 +1240,7 @@
         top: 2200px;
         left: 0;
     }
+
     /* culture */
     .container .main .enterpriseCulture {
         position: absolute;
@@ -1124,11 +1249,13 @@
         height: 100%;
         left: 0;
     }
+
     .main .enterpriseCulture .enterprise {
         position: relative;
         left: 26.51%;
         margin: 26px;
     }
+
     .main .enterpriseCulture .elegantDemeanour .lars_wg {
         position: absolute;
         width: 124px;
@@ -1139,11 +1266,13 @@
         display: table-cell;
         vertical-align: middle;
     }
+
     .main .enterpriseCulture .elegantDemeanour .manage {
         position: absolute;
         top: 272px;
         left: 33px;
     }
+
     .main .enterpriseCulture .gantDemean {
         position: relative;
         margin-top: 420px;
@@ -1152,12 +1281,14 @@
         left: 0;
         /* background-color: red; */
     }
+
     .gantDemean .picone {
         position: absolute;
         width: 163px;
         height: 163px;
         left: 35.3%;
     }
+
     .gantDemean .pictwo {
         position: absolute;
         width: 97px;
@@ -1165,6 +1296,7 @@
         left: 42.9%;
         top: 104px;
     }
+
     .gantDemean .picthr {
         position: absolute;
         right: 32.5%;
@@ -1173,6 +1305,7 @@
         z-index: 3;
         top: -10px;
     }
+
     .gantDemean .picfoo {
         position: absolute;
         width: 230px;
@@ -1181,6 +1314,7 @@
         top: 130px;
         z-index: 2;
     }
+
     .gantDemean .picfive {
         position: absolute;
         width: 163px;
@@ -1188,6 +1322,7 @@
         right: 41.5%;
         top: 340px;
     }
+
     .gantDemean .picsix {
         position: absolute;
         width: 163px;
@@ -1195,6 +1330,7 @@
         left: 33.5%;
         top: 229px;
     }
+
     .main .teamActivity {
         position: relative;
         left: 20%;
@@ -1204,6 +1340,7 @@
         left: 0;
         height: 600px;
     }
+
     /* recruitment */
     .main .recruitment_job .join_box {
         position: relative;
@@ -1216,6 +1353,7 @@
         margin: 0 auto;
         z-index: 0;
     }
+
     /* businesscooperation */
     .main .businessCooperation .business {
         position: relative;
@@ -1224,6 +1362,7 @@
         margin: 40px;
         top: 250px;
     }
+
     /* bottombar */
     .container .bottombar {
         width: 100%;
@@ -1234,6 +1373,7 @@
         /* top: 2460px; */
         top: 2660px;
     }
+
     .footerBox .foot_ewm .weibo {
         width: 44px;
         height: 36px;
@@ -1241,26 +1381,31 @@
         margin-left: 27px;
         margin-right: 3px;
     }
+
     .bottombar .footerBox .foot_tact {
         position: absolute;
         left: 14.5%;
         top: 100px;
     }
+
     .bottombar .footerBox .foot_ewm {
         position: absolute;
         right: 13%;
         top: 100px;
     }
+
     .bottombar .footerBox .title {
         position: absolute;
         left: 38.6%;
         top: 225px;
     }
+
     .bottombar .footerBox .logopng {
         position: absolute;
         left: 47.2%;
         top: 85px;
     }
+
     /* cultureBottombar  */
     .container .cultureBottombar {
         width: 100%;
@@ -1270,16 +1415,19 @@
         left: 0;
         top: 2940px;
     }
+
     .cultureBottombar .footerBox .logopng {
         position: absolute;
         left: 47.2%;
         top: 85px;
     }
+
     .cultureBottombar .footerBox .title {
         position: absolute;
         left: 38.6%;
         top: 225px;
     }
+
     .cultureBottombar .footerBox .foot_ewm .weibo {
         width: 44px;
         height: 36px;
@@ -1287,80 +1435,14 @@
         margin-left: 27px;
         margin-right: -3px;
     }
+
     .cultureBottombar .footerBox .foot_tact {
         position: absolute;
         left: 15%;
         top: 100px;
     }
-    /* recruitment bottombar */
 
- .container .recruitbottombar {
-    width: 100%;
-    height: 30%;
-    position: absolute;
-    background-color: #1b1b1b;
-    left: 0;
-    top: 2260px;
+    
 }
 
-.recruitbottombar .footerBox {
-    position: relative;
-    color: #f1f1f1;
-}
-
-.recruitbottombar .footerBox .logopng {
-    position: absolute;
-    left: 47.2%;
-    top: 85px;
-}
-
-.recruitbottombar .footerBox .title {
-    position: absolute;
-    left: 38.6%;
-    top: 225px;
-}
-
-.recruitbottombar .footerBox .foot_tact {
-    position: absolute;
-    left: 14.5%;
-    top: 100px;
-}
-
-.recruitbottombar .footerBox .foot_ewm {
-    position: absolute;
-    right: 13%;
-    top: 100px;
-}
-
-.recruitbottombar.footerBox .foot_ewm .wechsina {
-    width: 44px;
-    height: 36px;
-    float: left;
-    margin-right: 20px;
-}
-
-.recruitbottombar.footerBox .foot_ewm .weibo {
-    width: 44px;
-    height: 36px;
-    float: left;
-    margin-left: 27px;
-    margin-right: 3px;
-}
-
-.chat_ewmwg {
-    width: 90px;
-    height: 90px;
-    background-color: #fff;
-    position: relative;
-    left: -100px;
-    top: -60px;
-    z-index: 20;
-    text-align: center;
-    padding-top: 50%;
-}
-
-.chat_ewmwg img {
-    margin: 5px auto 0;
-} 
-}
 /*>=1920的设备*/

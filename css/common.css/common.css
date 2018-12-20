@@ -411,7 +411,7 @@ html {
     font-size: 28px;
     font-family: SourceHanSansCN-Bold;
     font-weight: 700;
-    color: rgba(58,71,79,1);
+    color: rgba(58, 71, 79, 1);
     top: 10px;
 }
 
@@ -419,12 +419,12 @@ html {
     position: relative;
     left: 11.5%;
     margin-top: 10px;
-height:10px;
-font-size:20px;
-font-family:SourceHanSansCN-Regular;
-font-weight:400;
-color:rgba(109,115,126,1);
-top: 20px;
+    height: 10px;
+    font-size: 20px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
+    top: 20px;
 }
 
 .about_company .about_le .appearance {
@@ -623,14 +623,15 @@ top: 20px;
     font-weight: 700;
     color: #f1f1f1;
 }
+
 .honor_box .honor p {
 
-height:10px;
-font-size:20px;
-font-family:SourceHanSansCN-Regular;
-font-weight:400;
-color:rgba(224,224,224,1);
-margin-left: -69px;
+    height: 10px;
+    font-size: 20px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(224, 224, 224, 1);
+    margin-left: -69px;
 }
 
 
@@ -903,7 +904,7 @@ margin-left: -69px;
 .job_detail {
     width: 100%;
     height: 900px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     overflow: hidden;
 }
 
@@ -927,7 +928,7 @@ margin-left: -69px;
 #jobInfo ul li {
     display: none;
     width: 550px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 #jobInfo ul li p strong {
@@ -988,22 +989,24 @@ margin-left: -69px;
     height: 8px;
     background: rgba(231, 53, 98, 1);
 }
+
 .business .cooper_e {
     margin-top: 30px;
     margin-left: 10px;
 }
+
 .business .cooper_le .cooper_e h4 {
-    font-size:18px;
-    font-family:SourceHanSansCN-Regular;
-    font-weight:400;
-    color:rgba(58,71,79,1);
+    font-size: 18px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(58, 71, 79, 1);
 }
 
 .business .cooper_le .cooper_e p {
-    font-size:14px;
-    font-family:SourceHanSansCN-Regular;
-    font-weight:400;
-    color:rgba(109,115,126,1);
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
 }
 
 .business .cooper_ri {
@@ -1055,7 +1058,7 @@ margin-left: -69px;
 }
 
 .enterprise .culture_le .culture_l {
-    margin-right:10px;
+    margin-right: 10px;
 }
 
 .enterprise .culture_le .culture_e h4 {
@@ -1194,19 +1197,19 @@ margin-left: -69px;
 }
 
 .teamActivity .team_le .team_e h4 {
-font-size:18px;
-font-family:SourceHanSansCN-Regular;
-font-weight:400;
-color:rgba(58,71,79,1);
-padding-top: 2px;
+    font-size: 18px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(58, 71, 79, 1);
+    padding-top: 2px;
 
 }
 
 .teamActivity .team_le .team_e p {
-    font-size:14px;
-    font-family:SourceHanSansCN-Regular;
-    font-weight:400;
-    color:rgba(109,115,126,1);
+    font-size: 14px;
+    font-family: SourceHanSansCN-Regular;
+    font-weight: 400;
+    color: rgba(109, 115, 126, 1);
     padding-top: 10px;
 }
 
@@ -1255,9 +1258,9 @@ padding-top: 2px;
 .team_list .activity_wg .active_ri {
     left: 180px;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
     padding-left: 200px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /* 分页 */
@@ -1265,25 +1268,29 @@ padding-top: 2px;
     position: absolute;
     right: 20px;
     bottom: -30px;
-    text-align: center; 
+    text-align: center;
 }
+
 .pageCulture ul {
     width: 100;
-  position: relative;
+    position: relative;
     display: block;
     float: left;
     margin-left: 10px;
 }
+
 .pageCulture .page_l {
     position: absolute;
     left: -40px;
     top: 3px;
 }
+
 .pageCulture .page_r {
     position: absolute;
     right: -40px;
     top: 3px;
 }
+
 .pageCulture li {
     /* padding: 5px 7px; */
     color: #767675;
@@ -1291,25 +1298,28 @@ padding-top: 2px;
     float: left;
     text-align: center;
 }
+
 .pageCulture li a {
-    display: block; 
+    display: block;
     width: 24px;
-   height: 24px;
-    line-height: 24px; 
+    height: 24px;
+    line-height: 24px;
     text-align: center;
     text-decoration: none;
 }
- .pageList {
-   margin-left: 5px;
-   width: 24px;
-   height: 24px;
-    line-height: 24px; 
+
+.pageList {
+    margin-left: 5px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
     text-align: center;
-   border-radius:50%;
+    border-radius: 50%;
 }
- .pageList:hover {
+
+.pageList:hover {
     color: #f1f1f1f1;
-    background:rgba(231,53,98,1);
+    background: #e73562;
 }
 
 /* cultureBottombar  */
